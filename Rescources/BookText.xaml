@@ -121,73 +121,146 @@
     <system:String x:Key="character_10">Friendly and outgoin</system:String>
     
     <!--Clothing and Hairstyle-->
-    <system:String x:Key="style_clothing_1">Generic Chic (Standard, Colorful, Modular)</system:String>
-    <system:String x:Key="style_hairstyle_1">Mohawk</system:String>
-    <system:String x:Key="style_clothing_2">Leisurewear (Comfort, Agility, Athleticism)</system:String>
-    <system:String x:Key="style_hairstyle_2">Long and ratty</system:String>
-    <system:String x:Key="style_clothing_3">Urban Flash (Flashy, Technological, Streetwear)</system:String>
-    <system:String x:Key="style_hairstyle_3">Short and spiked</system:String>
-    <system:String x:Key="style_clothing_4">Businesswear (Leadership, Presence, Authority)</system:String>
-    <system:String x:Key="style_hairstyle_4">Wild and all over</system:String>
-    <system:String x:Key="style_clothing_5">High Fashion (Exclusive, Designer, Couture)</system:String>
-    <system:String x:Key="style_hairstyle_5">Bald</system:String>
-    <system:String x:Key="style_clothing_6">Bohemian (Folksy, Retro, Free-spirited)</system:String>
-    <system:String x:Key="style_hairstyle_6">Striped</system:String>
-    <system:String x:Key="style_clothing_7">Bag Lady Chic (Homeless, Ragged, Vagrant)</system:String>
-    <system:String x:Key="style_hairstyle_7">Wild colors</system:String>
-    <system:String x:Key="style_clothing_8">Gang Colors (Dangerous, Violent, Rebellious)</system:String>
-    <system:String x:Key="style_hairstyle_8">Neat and short</system:String>
-    <system:String x:Key="style_clothing_9">Nomad Leathers (Western, Rugged, Tribal)</system:String>
-    <system:String x:Key="style_hairstyle_9">Short and curly</system:String>
-    <system:String x:Key="style_clothing_10">Asia Pop (Bright, Costume-like, Youthful)</system:String>
-    <system:String x:Key="style_hairstyle_10">Long and straigh</system:String>
+    <system:String x:Key="clothing_1">Generic Chic (Standard, Colorful, Modular)</system:String>
+    <system:String x:Key="hairstyle_1">Mohawk</system:String>
+    <system:String x:Key="clothing_2">Leisurewear (Comfort, Agility, Athleticism)</system:String>
+    <system:String x:Key="hairstyle_2">Long and ratty</system:String>
+    <system:String x:Key="clothing_3">Urban Flash (Flashy, Technological, Streetwear)</system:String>
+    <system:String x:Key="hairstyle_3">Short and spiked</system:String>
+    <system:String x:Key="clothing_4">Businesswear (Leadership, Presence, Authority)</system:String>
+    <system:String x:Key="hairstyle_4">Wild and all over</system:String>
+    <system:String x:Key="clothing_5">High Fashion (Exclusive, Designer, Couture)</system:String>
+    <system:String x:Key="hairstyle_5">Bald</system:String>
+    <system:String x:Key="clothing_6">Bohemian (Folksy, Retro, Free-spirited)</system:String>
+    <system:String x:Key="hairstyle_6">Striped</system:String>
+    <system:String x:Key="clothing_7">Bag Lady Chic (Homeless, Ragged, Vagrant)</system:String>
+    <system:String x:Key="hairstyle_7">Wild colors</system:String>
+    <system:String x:Key="clothing_8">Gang Colors (Dangerous, Violent, Rebellious)</system:String>
+    <system:String x:Key="hairstyle_8">Neat and short</system:String>
+    <system:String x:Key="clothing_9">Nomad Leathers (Western, Rugged, Tribal)</system:String>
+    <system:String x:Key="hairstyle_9">Short and curly</system:String>
+    <system:String x:Key="clothing_10">Asia Pop (Bright, Costume-like, Youthful)</system:String>
+    <system:String x:Key="hairstyle_10">Long and straigh</system:String>
 
     <!--Affection You Are Never Without-->
-    <system:String x:Key="style_affection_1">Tattoos</system:String>
-    <system:String x:Key="style_affection_2">Mirrorshades</system:String>
-    <system:String x:Key="style_affection_3">Ritual scars</system:String>
-    <system:String x:Key="style_affection_4">Spiked gloves</system:String>
-    <system:String x:Key="style_affection_5">Nose rings</system:String>
-    <system:String x:Key="style_affection_6">Tongue or other piercings</system:String>
-    <system:String x:Key="style_affection_7">Strange fingernail implants</system:String>
-    <system:String x:Key="style_affection_8">Spiked boots or heels</system:String>
-    <system:String x:Key="style_affection_9">Fingerless gloves</system:String>
-    <system:String x:Key="style_affection_10">Strange contacts</system:String>
+    <system:String x:Key="affection_1">Tattoos</system:String>
+    <system:String x:Key="affection_2">Mirrorshades</system:String>
+    <system:String x:Key="affection_3">Ritual scars</system:String>
+    <system:String x:Key="affection_4">Spiked gloves</system:String>
+    <system:String x:Key="affection_5">Nose rings</system:String>
+    <system:String x:Key="affection_6">Tongue or other piercings</system:String>
+    <system:String x:Key="affection_7">Strange fingernail implants</system:String>
+    <system:String x:Key="affection_8">Spiked boots or heels</system:String>
+    <system:String x:Key="affection_9">Fingerless gloves</system:String>
+    <system:String x:Key="affection_10">Strange contacts</system:String>
     
     <!--What Do You Value Most-->
-    <system:String x:Key="style_affection_1">Money</system:String>
-        <system:String x:Key="style_affection_1">I stay neutral.</system:String>
-            <system:String x:Key="style_affection_1">Honor</system:String>
-                <system:String x:Key="style_affection_1">I stay neutral.</system:String>
-                    <system:String x:Key="style_affection_1">Your word</system:String>
-                        <system:String x:Key="style_affection_1">I like almost everyone.</system:String>
-                            <system:String x:Key="style_affection_1">Honesty</system:String>
-                                <system:String x:Key="style_affection_1">I hate almost everyone.</system:String>
-                                    <system:String x:Key="style_affection_1">Knowledge</system:String>
-                                        <system:String x:Key="style_affection_1">People are tools. Use them for your own goals then discard them.</system:String>
-                                            <system:String x:Key="style_affection_1">Vengeance</system:String>
-                                                <system:String x:Key="style_affection_1">Every person is a valuable individual.</system:String>
-                                                    <system:String x:Key="style_affection_1">Love</system:String>
-                                                        <system:String x:Key="style_affection_1">People are obstacles to be destroyed if they cross me.</system:String>
-                                                            <system:String x:Key="style_affection_1">Power</system:String>
-                                                                <system:String x:Key="style_affection_1">People are untrustworthy. Don't depend on anyone.</system:String>
-                                                                    <system:String x:Key="style_affection_1">Family</system:String>
-                                                                        <system:String x:Key="style_affection_1">Wipe ‘em all out and let the cockroaches take over.</system:String>
-                                                                            <system:String x:Key="style_affection_1">Friendship</system:String>
-                                                                                <system:String x:Key="style_affection_1">People are wonderful!</system:String>
+    <system:String x:Key="value_1">Money</system:String>
+    <system:String x:Key="value_2">Honor</system:String>
+    <system:String x:Key="value_3">Your word</system:String>
+    <system:String x:Key="value_4">Honesty</system:String>
+    <system:String x:Key="value_5">Knowledge</system:String>
+    <system:String x:Key="value_6">Vengeance</system:String>
+    <system:String x:Key="value_7">Love</system:String>
+    <system:String x:Key="value_8">Power</system:String>
+    <system:String x:Key="value_9">Family</system:String>
+    <system:String x:Key="value_10">Friendship</system:String>
+    
     <!--How Do You Feel About Most People-->
+    <system:String x:Key="people_1">I stay neutral.</system:String>
+    <system:String x:Key="people_2">I stay neutral.</system:String>
+    <system:String x:Key="people_3">I like almost everyone.</system:String>
+    <system:String x:Key="people_4">I hate almost everyone.</system:String>
+    <system:String x:Key="people_5">People are tools. Use them for your own goals then discard them.</system:String>
+    <system:String x:Key="people_6">Every person is a valuable individual.</system:String>
+    <system:String x:Key="people_7">People are obstacles to be destroyed if they cross me.</system:String>
+    <system:String x:Key="people_8">People are untrustworthy. Don't depend on anyone.</system:String>
+    <system:String x:Key="people_9">Wipe ‘em all out and let the cockroaches take over.</system:String>
+    <system:String x:Key="people_10">People are wonderful!</system:String>
     
     <!--Most Valued Person In Your Life-->
+    <system:String x:Key="person_1">A parent</system:String>
+    <system:String x:Key="person_2">A brother or sister</system:String>
+    <system:String x:Key="person_3">A lover</system:String>
+    <system:String x:Key="person_4">A friend</system:String>
+    <system:String x:Key="person_5">Yourself</system:String>
+    <system:String x:Key="person_6">A pet</system:String>
+    <system:String x:Key="person_7">A teacher or mentor</system:String>
+    <system:String x:Key="person_8">A public figure</system:String>
+    <system:String x:Key="person_9">A personal hero</system:String>
+    <system:String x:Key="person_10">No one</system:String>
     
     <!--Most Valued Possession You Own-->
+    <system:String x:Key="possession_1">A weapon></system:String>
+    <system:String x:Key="possession_2">A tool></system:String>
+    <system:String x:Key="possession_3">A piece of clothing></system:String>
+    <system:String x:Key="possession_4">A photograph></system:String>
+    <system:String x:Key="possession_5">A book or diary></system:String>
+    <system:String x:Key="possession_6">A recording></system:String>
+    <system:String x:Key="possession_7">A musical instrument></system:String>
+    <system:String x:Key="possession_8">A piece of jewelry></system:String>
+    <system:String x:Key="possession_9">A toy></system:String>
+    <system:String x:Key="possession_10">A letter></system:String>
     
     <!--Family Background-->
-    
+    <system:String x:Key="family_background_header_1">Corporate Execs</system:String>
+    <system:String x:Key="family_background_description_1">Wealthy, powerful, with servants, luxury homes, and the best of everything. Private security made sure you were always safe. You definitely went to a big-name private school.</system:String>
+    <system:String x:Key="family_background_header_2">Corporate Managers</system:String>
+    <system:String x:Key="family_background_description_2">Well to do, with large homes, safe neighborhoods, nice cars, etc. Sometimes your parent(s) would hire servants, although this was rare. You had a mix of private and corporate education.</system:String>
+    <system:String x:Key="family_background_header_3">Corporate Technicians</system:String>
+    <system:String x:Key="family_background_description_3">Middle-middle class, with comfortable conapts or Beaverville suburban homes, minivans and corporate-run technical schools. Kind of like living 1950s America crossed with 1984.</system:String>
+    <system:String x:Key="family_background_header_4">Nomad Pack</system:String>
+    <system:String x:Key="family_background_description_4">You had a mix of rugged trailers, vehicles, and huge road kombis for your home. You learned to drive and fight at an early age, but the family was always there to care for you. Food was actually fresh and abundant. Mostly home schooled.</system:String>
+    <system:String x:Key="family_background_header_5">Ganger "Family"</system:String>
+    <system:String x:Key="family_background_description_5">A savage, violent home in any place the gang could take over. You were usually hungry, cold, and scared. You probably didn't know who your actual parents were. Education? The Gang taught you how to fight, kill, and steal—what else did you need to know?</system:String>
+    <system:String x:Key="family_background_header_6">Combat Zoners</system:String>
+    <system:String x:Key="family_background_description_6">A step up from a gang "family," your home was a decaying building somewhere in the ‘Zone', heavily fortified. You were hungry at times, but regularly could score a bed and a meal. Home schooled.</system:String>
+    <system:String x:Key="family_background_header_7">Urban Homeless</system:String>
+    <system:String x:Key="family_background_description_7">You lived in cars, dumpsters, or abandoned shipping modules. If you were lucky. You were usually hungry, cold, and scared, unless you were tough enough to fight for the scraps. Education? School of Hard Knocks.</system:String>
+    <system:String x:Key="family_background_header_8">Megastructure Warren Rats</system:String>
+    <system:String x:Key="family_background_description_8">You grew up in one of the huge new megastructures that went up after the War. A tiny conapt, kibble and scop for food, a mostly warm bed. Some better educated adult warren dwellers or a local Corporation may have set up a school.</system:String>
+    <system:String x:Key="family_background_header_9">Reclaimers</system:String>
+    <system:String x:Key="family_background_description_9">You started out on the road, but then moved into one of the deserted ghost towns or cities to rebuild it. A pioneer life: dangerous, but with plenty of simple food and a safe place to sleep. You were home schooled if there was anyone who had the time.</system:String>
+    <system:String x:Key="family_background_header_10">Edgerunners</system:String>
+    <system:String x:Key="family_background_description_10">Your home was always changing based on your parents' current "job". Could be a luxury apartment, an urban conapt, or a dumpster if you were on the run. Food and shelter ran the gamut from gourmet to kibble</system:String>
+
     <!--Childhood Environment-->
-    
+    <system:String x:Key="environment_1">Ran on The Street, with no adult supervision.</system:String>
+    <system:String x:Key="environment_2">Spent in a safe Corp Zone walled off from the rest of the City.</system:String>
+    <system:String x:Key="environment_3">In a Nomad pack moving from place to place.</system:String>
+    <system:String x:Key="environment_4">In a Nomad pack with roots in transport (ships, planes, caravans).</system:String>
+    <system:String x:Key="environment_5">In a decaying, once upscale neighborhood, now holding off the boosters to survive.</system:String>
+    <system:String x:Key="environment_6">In the heart of the Combat Zone, living in a wrecked building or other squat.</system:String>
+    <system:String x:Key="environment_7">In a huge "megastructure" building controlled by a Corp or the City.</system:String>
+    <system:String x:Key="environment_8">In the ruins of a deserted town or city taken over by Reclaimers.</system:String>
+    <system:String x:Key="environment_9">In a Drift Nation (a floating offshore city) that is a meeting place for all kinds of people.</system:String>
+    <system:String x:Key="environment_10">In a Corporate luxury "starscraper," high above the rest of the teeming rabble.</system:String>
+        
     <!--You Family Crisis-->
+    <system:String x:Key="crisis_1">Your family lost everything through betrayal.</system:String>
+    <system:String x:Key="crisis_2">Your family lost everything through bad management.</system:String>
+    <system:String x:Key="crisis_3">Your family was exiled or otherwise driven from their original home/nation/Corporation.</system:String>
+    <system:String x:Key="crisis_4">Your family is imprisoned, and you alone escaped.</system:String>
+    <system:String x:Key="crisis_5">Your family vanished. You are the only remaining member.</system:String>
+    <system:String x:Key="crisis_6">Your family was killed, and you were the only survivor.</system:String>
+    <system:String x:Key="crisis_7">Your family is involved in a long-term conspiracy, organization, or association, such as a crime family or revolutionary group.</system:String>
+    <system:String x:Key="crisis_8">Your family was scattered to the winds due to misfortune.</system:String>
+    <system:String x:Key="crisis_9">Your family is cursed with a hereditary feud that has lasted for generations.</system:String>
+    <system:String x:Key="crisis_10">You are the inheritor of a family debt; you must honor this debt before moving on with your life.</system:String>
     
     <!--Your Life Goals-->
+    <system:String x:Key="goal_1">Get rid of a bad reputation.</system:String>
+    <system:String x:Key="goal_2">Gain power and control.</system:String>
+    <system:String x:Key="goal_3">Get off The Street no matter what it takes.</system:String>
+    <system:String x:Key="goal_4">Cause pain and suffering to anyone who crosses you.</system:String>
+    <system:String x:Key="goal_5">Live down your past life and try to forget it.</system:String>
+    <system:String x:Key="goal_6">Hunt down those responsible for your miserable life and make them pay.</system:String>
+    <system:String x:Key="goal_7">Get what's rightfully yours.</system:String>
+    <system:String x:Key="goal_8">Save, if possible, anyone else involved in your background, like a lover, or family member.</system:String>
+    <system:String x:Key="goal_9">Gain fame and recognition.</system:String>
+    <system:String x:Key="goal_10">Become feared and respected.</system:String>
+
+    <!--Relationships-->
     
     <!--Specyfic Character Lifestyle-->
     

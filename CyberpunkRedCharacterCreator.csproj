@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Page Remove="Rescources\tmp.xaml" />
+    <Page Remove="Rescources\BookText.xaml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Rescources\tmp.xaml" />
+    <Resource Include="Rescources\BookText.xaml" />
   </ItemGroup>
 
 </Project>
