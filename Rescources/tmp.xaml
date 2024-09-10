@@ -1,0 +1,194 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <!--Menu texts-->
+    <!--idk-->
+    <system:String x:Key="menu_text_radnom">Random</system:String>
+
+    <!--Classes names-->
+    <system:String x:Key="class_name_exec">Exec</system:String>
+    <system:String x:Key="class_name_fixer">Fixer</system:String>
+    <system:String x:Key="class_name_lawman">Lawman</system:String>
+    <system:String x:Key="class_name_media">Media</system:String>
+    <system:String x:Key="class_name_medtech">Medtech</system:String>
+    <system:String x:Key="class_name_netrunner">Netrunner</system:String>
+    <system:String x:Key="class_name_nomad">Nomad</system:String>
+    <system:String x:Key="class_name_rockerboy">Rockerboy</system:String>
+    <system:String x:Key="class_name_solo">Solo</system:String>
+    <system:String x:Key="class_name_tech">Tech</system:String>
+
+    <!--Classes description-->
+    <system:String x:Key="class_description_exec">In the old days before the Time of the Red, you would have been a hard and driven, fast-track MBA on their way up the Corporate ladder. Sure, it was selling your soul to the Company, but face it: the Corporations ruled the world. They controlled governments, markets, nations, armies—you name it. And you knew that whoever controlled the Corporations controlled everything else. But things changed when the largest Megacorps on the planet got into a major war that was equal to anything any real national governments could have thrown down. Okay, so right now your life as a junior executive is anything but easy. There are those underneath you who'd kill for a shot at your job. Literally. There are those over you who'd kill to keep you out of their jobs. Literally. And they're not kidding about the killing—every up-and-comer in the Corporation has their own Team of Solos and Netrunners to cover important pet projects. Last week, you led a mixed team of Solos, Netrunners, and Techs on a headhunting run to "extract" a researcher from a rival company. You told yourself you joined the Corporation to make it a better place—work from the inside, you said. Or just until you could start your own Corporation that would be...a little more honest. But now you're not so sure. Your ideals are a little tarnished and things are getting pretty bleak. But you can't worry about ethics now. You've got a report due in an hour, and it looks like that guy in sales is planning to ice your database for good. You're gonna ice him first.</system:String>
+    <system:String x:Key="class_description_fixer">You realized fast that you weren't ever going to get a Corporate job or be tough enough to be a Solo. But you always knew you had a knack for figuring out what other people wanted, and how to get it for them. For a price, of course. Now your deals have moved past the nickel-and-dime stuff into the big time. Maybe you move illegal weapons over the border. Or steal and resell medical supplies. Perhaps you're a skill broker acting as an agent for high-priced Solos and 'Runners, or even hiring a whole Nomad pack to back a client's contracts. You buy and sell favors like an old-style Mafia godfather. You have connections into all kinds of businesses, deals, and political groups. You use your contacts and allies as part of a vast web of intrigue and coercion. If there's a hot nightclub in the City, you've bought into it. If there are military-class weapons on The Street, you smuggled ‘em in. If there's a faction war going down, you're negotiating between sides with an eye on the main chance. But you're not entirely in it for the bucks. If someone needs to get the heat off, you'll hide them. You get people housing when there isn't any, and you bring in food when the streets are blockaded. Maybe you do it because you know they'll owe you later, but you're not sure. You're one part Robin Hood and two parts AI Capone. In the past, they would have called you a crime lord. But this is the fragmented, nasty, deadly Time of the Red. So now they call you a Fixer.</system:String>
+    <system:String x:Key="class_description_lawman">In the old days before the War, they only used to shoot at cops. Now you're lucky if you just take a slug. The Street is mean these days, filled with new drugs, new gangs, and new weapons that make a Minami-10 look like a kid's toy. But even so, you're out there doing what you can to Protect—and Serve.There used to be a big City Force, but most of the Old Guard in NCPD have been thrown out on their own to keep what peace they can. The ones who remain still take the Badge seriously; they work to keep people safe and make some kind of stand against chaos. Even if you'd rather just walk a beat, if you're a professional Lawman of any stripe, you're stuck carrying at least four high-caliber weapons, most of them full-auto types, wearing a Kevlar® vest that'll stop 850ft/lbs. per square inch—and often you're still outgunned and outflanked. Half the gangs were cybered up to begin with: super speed, super reflexes, could see in the dark, carried weapons in their arms...and that was before the War and the Fall of the Towers pumped a metric ton of milspec cybertech into the Night Markets. The other half of the guys on The Street are freelance Corporate mercs who used to have jobs during the War; hired to enforce Corp armies disbanded by the New United States' goon squads. Now they're the goon squads and you're trying to keep them under control too. Used to be the Corporate Cops had heavy weapons, full combat armor, Trauma Team backup, AV-4 assault vehicles, and gyrocopters with miniguns. But the nice, clean sectors full of new office buildings and fancy restaurants—where no jacked-up psychopunk is going to ever go on a killing spree with an FN-RAL37—are mostly gone. Now you've got mostly burned-out buildings and abandoned cars, where every night is a new firefight and another great opportunity for a messy death. Or you might draw a Psycho Squad berth and get the job of hunting down heavily armed and armored cyborgs who've flipped out. A cyberpsycho can walk through machine gun fire and not even feel it, so a lot of the Psycho Squad become a bit crazy themselves; they load up with boosted reflexes, get some monstrously huge guns, and go hunt the cyborgs solo. But you're not that crazy. Yet.</system:String>
+    <system:String x:Key="class_description_media">They're bending the truth out there. And you're going to stop them. Someone has to do it. The Corporations used to rule the world. They dumped toxics, destabilized economies, and committed murder with equal impunity. The government back then couldn't even stop them—hell, they owned the government. But then the War came.The War stripped away the facade and let us all know exactly what had been going on under our noses. And the people who made sure we all knew the score were the Medias. That's you. You've got a vidlink and a press pass, and you're not afraid to use them. You're a city-wide figure, seen nightly all over the Data Pool in the Time of the Red. It's not like the old days, when you had a major Mediacorp behind you; this time, you've gotta depend on your fans, your contacts, and your own reputation. But it's harder for these new Corps to make you disappear. So when you dig down for the dirt and slime the corrupt officials and Corporate lapdogs try to cover up, you can dig deep. The next morning, you can put the details of their crimes all over the screamsheets and vidscreens. Three or four times, the bad guys have tried to kill you—that's why your backup's a crack Solo bodyguard and you've got one of the top ‘Runners in the business digging through NET Architectures to back your stories. You have to be good, or else.Your ‘Runner's just phoned in with a hot lead. You grab your gear and flag your backup. You're going to break those bastards. This time, for sure.</system:String>
+    <system:String x:Key="class_description_medtech">You're an artist, and the human body is your canvas. You've got the best tools the Time of the Red can offer, and you know how to use them. If you're lucky, you got to attend one of the real med schools scattered around the wreck of the Old United States. And after the War, military hospitals were everywhere and the few doctors on the war front needed helping hands to hold down screaming patients and splice cyberware back together. So, maybe you learned that way.And there's always an old ripperdoc or two out there who hearken back to that old science fiction story called The Bladerunner—not that old flatscreen vid, but the really old sci-fi book about renegade doctors who performed illegal street surgery in one of the first dystopian novels. Maybe one of those guys trained you. Maybe that's where you are right now, patching up the wounded, mending up the sick, and keeping the locals alive. For love, commitment, or maybe a just a fat payday on the side.If you're really lucky, you've scored a berth in the local Trauma Team franchise. Trauma Teams are groups of licensed paramedicals who patrol the city looking for patients. You operate from an AV-4 Urban Assault Vehicle, redesigned into an ambulance configuration, and armed with a belly-mounted minigun. It's the best of the best—Trauma Team charges some heavy subscription fees to save its clients, and that translates into new medical toys, faster AV ambulances, and hefty salaries for the best surgeons around.It doesn't matter how you got here. What matters is that you're here, on The Street, doing the job. And you'd be doing it no matter what the reason. It's what marks you as a Medtech</system:String>
+    <system:String x:Key="class_description_netrunner">You're a brain-burning computer hacker and master of the Post-NET cyberverse in the Time of the Red. At three, your parents bought you an old Kirama LPD-12 cyberdeck with Zetatech 526 optical goggles (you were too young for interface plugs), and your life was changed. By fifth grade, you were already using REFRAME-G1s meta-programming to crack into the school district's system and change your grades. When you were thirteen, you shifted enough funds out of unprotected Trans United Bank accounts to finance your first neural interface plugs. You couldn't wait to run high and fast with the other gods of the NET—Bartmoss, Magnificent Curtis, and the rest. Then the 4th Corp War blew the Old NET apart. The R.A.B.I.D.S. made NET travel a suicide run; the Nodes were fragmented or corrupted. But there were still places to run. You just had to go there and jack in the hard way. You traded in sitting on the couch for a Bodyweight combat bodysuit and Virtuality 5 interface goggles to mesh NET with Meatspace. The systems you cracked were smaller, but even deadlier. Now, you're really part of a team, with Solos to cover your back, Medtechs to restart your heart if the ICE gets you, and Techs to help you hot-wire your cyberdeck for more speed and software deployment. Now, nothing can stop you. As an electronic wraith, you slip into the "hardest" mainframe systems with ease: stealing, trading, and selling their deepest secrets at will. The Black ICE may still kill you in the end, but until the ride runs out you'll be there, bare-brained and headfirst in the New NET</system:String>
+    <system:String x:Key="class_description_nomad">Years ago, the Corps drove your family off the farm. They rolled in, took over the land, and put rent-a-cops all over the place. But that was before the War. You were loners, homeless, until you created a Nomad Pack of nearly two-hundred members. Back then, your Pack was crammed into a huge, ragtag fleet of cars, vans, buses, and RVs roaming the freeways looking for supplies, odd jobs, and spare parts in a fragmented world. The Pack was your home—it had teachers, Medtechs, leaders, and mechanics—a virtual town on wheels in which everyone was related by marriage or kinship. But in the Time of the Red, your Nomad Pack has evolved. Your knowledge of roadcraft—of how to get between the safezones over the savage highways has allowed you to become the masters of getting people, supplies, and materials to a world that desperately needs them. Your cousins on the open seas have taken over the huge container ships and turned them into the Nomad convoys keeping civilization running. Your Deltajock famboys keep the supply lines to the Orbital Highriders open. If it has to get somewhere and get there safely, Nomads get the job done. Your vehicles are well-armored and bristling with stolen weapons: miniguns, rocket launchers, and the like. Every kid knows how to use a rifle, and everyone packs a knife. Like modern-day cowboys, you ride the hard trail. You've got a gun, a bike, and your Family, and that's all you need. You're a Nomad</system:String>
+    <system:String x:Key="class_description_rockerboy">If you live to rock, this is where you belong. As a Rockerboy, you're one of the street poets, the social conscience, and the rebels of the Time of the Red. With the advent of digital porta-studios and garage music mastering, every Rockerboy with a message can take it to The Street, put it in the record stores, bounce it off the comsats. Sometimes, your message isn't something the Corporations or the government wants to hear. Sometimes what you say is going to get right in the faces of the powerful people who really want to run this world. But you don't care, because as a Rockerboy, you know it's your place to challenge authority, whether in straight-out protest songs that tell it like it is, playing kick-ass rock n' roll to get the people away from the TV sets and into The Streets, firing up the crowd with speeches, or composing fiery writings that shape the minds and hearts of millions. You have a proud history as a Rockerboy. Dylan, Springsteen, U2, NWA, the Who, Jett, the Stones—the legions of hard-rock heroes who told the truth with screaming guitars or gut-honest lyrics. You have the power to get the people up; to lead, inspire, and inform. Your message can give the timid courage, the weak strength, and the blind vision. Rockerboy legends like Johnny Silverhand, Rockerboy Manson (for whom the Role is named) and Kerry Eurodyne have led armies against Corporations and governments. Rockerboys have exposed corruption and brought down dictators. It's a lot of power for someone doing gigs every night in another city. But you can handle it. After all: you came to play!</system:String>
+    <system:String x:Key="class_description_solo">You were reborn with a gun in your hand—the flesh and blood hand—not the metallic weapons factory that covers most of your other arm. Whether as a freelance guard and killer-for-hire, or as one of the Corporate cybersoldiers who enforce business deals and the Company's "black operations," you're one of the elite fighting machines of the Time of the Red. Most Solos put in military time during the 4th Corporate War, in a Corporate army, or in one of the government's current "police actions" around the country. As the battle damage piles up, you start to rely more and more upon tech: cyberlimbs for weapons and armor, bio-program chips to increase your reflexes and awareness, combat drugs to give you that edge over your opponents. When you're the best of the best, you might even leave the ranks of Corporate samurai and go ronin—freelancing your lethal talents as a killer, bodyguard, or enforcer to whoever can pay your very high fees. Sounds good? There's a price—a heavy one. You've lost so much of your original meat body that you're almost a machine. Your killing reflexes are so jacked up that you have to restrain yourself from going berserk at any moment. Years of combat drugs taken to keep the edge have given you terrifying addictions. There are few people you can trust anymore. One night you might sleep in a penthouse condo in the City, the next in a filthy alley on The Street. But that's the price of being the best. And you're willing to pay it. Because you're a Solo</system:String>
+    <system:String x:Key="class_description_tech">You can't leave anything alone—if it sits near you for more than five minutes, you've disassembled it and made it into something new. You've always got at least two screwdrivers and a wrench in your pockets. Computer down? No problem. Hydrogen burner out in your Metrocar? No problem. Can't get the video to run or your interface glitching? No problem. You make your living building, fixing, and modifying—a crucial occupation in a technological world recovering from a War that broke the back of the supply chain. You can make some good bucks fixing everyday stuff, but for the serious money you need to tackle the big jobs. Illegal weapons. Illegal or stolen cybertech. Corporate espionage and counter-espionage gear for "black operations." If you're any good, you're making a lot of money. And that money goes into new gadgets, hardware, and information. Your black market work isn't just making you friends—it's also racking you up an impressive number of enemies as well—so you invest a lot in defense systems and, if really pushed to the wall, call in a few markers on a Solo or two. You've fixed up tech for everybody from black ops Corporate samurai to Ms. Zepada down the block. No one's ever come back to you with a complaint but that might be because of the turrets guarding your front door. You're addicted to technology in all its forms and that's what makes you a Tech.</system:String>
+    
+    <!--Character Creation Header-->
+    <system:String x:Key="character_creation_header_templates">Streetrats (Templates):</system:String>
+    <system:String x:Key="character_creation_header_fast_and_dirty">Edgerunners (Fast and Dirty):</system:String>
+    <system:String x:Key="character_creation_header_calculated">Complete Packages (Calculated):</system:String>
+    
+    <!--Character Creation Description-->
+    <system:String x:Key="character_creation_description_templates">Streetrats (Templates): If you've never roleplayed before or just want to get going without a lot of fuss, Templates are the fastest way to start creating a Character. But don't underestimate Templates! In the hands of an experienced roleplayer, even a template can be modified to make a unique and fully fleshed-out Character by expanding on the basics. By adding as you play, the Template gathers more individuality to itself, getting better and better the more you play.</system:String>
+    <system:String x:Key="character_creation_description_fast_and_dirty">Edgerunners (Fast and Dirty): As you'll soon realize, the Cyberpunk REDCharacter Generation system is designed to give you a lot of flexibility. You can tailor the Character the way you want it, with lots of personal touches all through the process. But when you need to create a Character quickly and without a lot of painstaking detail, the Fast and Dirty method is an excellent option.</system:String>
+    <system:String x:Key="character_creation_description_calculated">Complete Packages (Calculated): The Calculated method is by far the most complex way to make a Cyberpunk RED Character. Yet the reward is the ability to create a Character that is exactly what you want, using pools of points to buy Statistics and Skills and starting money to buy weapons, armor, gear, and cyberware.</system:String>
+    
+    <!--General Character Lifestyle-->
+    
+    <!--Cultural region-->
+    <system:String x:Key="cultural_region_na">North American</system:String>
+    <system:String x:Key="cultural_region_sca">South/Central American</system:String>
+    <system:String x:Key="cultural_region_we">Western European</system:String>
+    <system:String x:Key="cultural_region_ee">Eastern European</system:String>
+    <system:String x:Key="cultural_region_mena">Middle Eastern/North African</system:String>
+    <system:String x:Key="cultural_region_ssa">Sub-Saharan African</system:String>
+    <system:String x:Key="cultural_region_sa">South Asia</system:String>
+    <system:String x:Key="cultural_region_sea">South East Asia</system:String>
+    <system:String x:Key="cultural_region_ea">East Asia</system:String>
+    <system:String x:Key="cultural_region_opi">Oceania/Pacific Islander</system:String>
+
+    <!--Languages-->
+    <system:String x:Key="language_chinese">Chinese</system:String>
+    <system:String x:Key="language_cree">Cree</system:String>
+    <system:String x:Key="language_creole">Creole</system:String>
+    <system:String x:Key="language_english">English</system:String>
+    <system:String x:Key="language_french">French</system:String>
+    <system:String x:Key="language_navajo">Navajo</system:String>
+    <system:String x:Key="language_german">German</system:String>
+    <system:String x:Key="language_guarani">Guarani</system:String>
+    <system:String x:Key="language_mayan">Mayan</system:String>
+    <system:String x:Key="language_spanish">Spanish</system:String>
+    <system:String x:Key="language_portuguese">Portuguese</system:String>
+    <system:String x:Key="language_quechua">Quechua</system:String>
+    <system:String x:Key="language_dutch">Dutch</system:String>
+    <system:String x:Key="language_italian">Italian</system:String>
+    <system:String x:Key="language_norwegian">Norwegian</system:String>
+    <system:String x:Key="language_finish">Finnish</system:String>
+    <system:String x:Key="language_polish">Polish</system:String>
+    <system:String x:Key="language_romanian">Romanian</system:String>
+    <system:String x:Key="language_russian">Russian</system:String>
+    <system:String x:Key="language_ukrainian">Ukrainian</system:String>
+    <system:String x:Key="language_arabic">Arabic</system:String>
+    <system:String x:Key="language_berber">Berber</system:String>
+    <system:String x:Key="language_farsi">Farsi</system:String>
+    <system:String x:Key="language_hebrew">Hebrew</system:String>
+    <system:String x:Key="language_turkish">Turkish</system:String>
+    <system:String x:Key="language_hausa">Hausa</system:String>
+    <system:String x:Key="language_lingala">Lingala</system:String>
+    <system:String x:Key="language_oromo">Oromo</system:String>
+    <system:String x:Key="language_swahili">Swahili</system:String>
+    <system:String x:Key="language_twi">Twi</system:String>
+    <system:String x:Key="language_yoruba">Yoruba</system:String>
+    <system:String x:Key="language_bengali">Bengali</system:String>
+    <system:String x:Key="language_dari">Dari</system:String>
+    <system:String x:Key="language_hindi">Hindi</system:String>
+    <system:String x:Key="language_nepali">Nepali</system:String>
+    <system:String x:Key="language_sinhalese">Sinhalese</system:String>
+    <system:String x:Key="language_tamil">Tamil</system:String>
+    <system:String x:Key="language_urdu">Urdu</system:String>
+    <system:String x:Key="language_burmesesh">Burmesesh</system:String>
+    <system:String x:Key="language_filipion">Filipion</system:String>
+    <system:String x:Key="language_indonesian">Indonesian</system:String>
+    <system:String x:Key="language_khmer">Khmer</system:String>
+    <system:String x:Key="language_malayan">Malayan</system:String>
+    <system:String x:Key="language_vietnamese">Vietnamese</system:String>
+    <system:String x:Key="language_cantonese">Cantonese</system:String>
+    <system:String x:Key="language_japanese">Japanese</system:String>
+    <system:String x:Key="language_korean">Korean</system:String>
+    <system:String x:Key="language_mandarin">Mandarin Chinese</system:String>
+    <system:String x:Key="language_mongolain">Mongolian</system:String>
+    <system:String x:Key="language_hawaiian">Hawaiian</system:String>
+    <system:String x:Key="language_moori">Moori</system:String>
+    <system:String x:Key="language_pama">Pama-Nyungan</system:String>
+    <system:String x:Key="language_tahitai">Tahitai</system:String>
+
+    <!--What are you like-->
+    <system:String x:Key="character_1">Shy and secretive</system:String>
+    <system:String x:Key="character_2">Rebellious, antisocial, and violent</system:String>
+    <system:String x:Key="character_3">Arrogant, proud, and aloof</system:String>
+    <system:String x:Key="character_4">Moody, rash, and headstrong</system:String>
+    <system:String x:Key="character_5">Picky, fussy, and nervous</system:String>
+    <system:String x:Key="character_6">Stable and serious</system:String>
+    <system:String x:Key="character_7">Silly and fluff-headed</system:String>
+    <system:String x:Key="character_8">Sneaky and deceptive</system:String>
+    <system:String x:Key="character_9">Intellectual and detached</system:String>
+    <system:String x:Key="character_10">Friendly and outgoin</system:String>
+    
+    <!--Clothing and Hairstyle-->
+    <system:String x:Key="style_clothing_1">Generic Chic (Standard, Colorful, Modular)</system:String>
+    <system:String x:Key="style_hairstyle_1">Mohawk</system:String>
+    <system:String x:Key="style_clothing_2">Leisurewear (Comfort, Agility, Athleticism)</system:String>
+    <system:String x:Key="style_hairstyle_2">Long and ratty</system:String>
+    <system:String x:Key="style_clothing_3">Urban Flash (Flashy, Technological, Streetwear)</system:String>
+    <system:String x:Key="style_hairstyle_3">Short and spiked</system:String>
+    <system:String x:Key="style_clothing_4">Businesswear (Leadership, Presence, Authority)</system:String>
+    <system:String x:Key="style_hairstyle_4">Wild and all over</system:String>
+    <system:String x:Key="style_clothing_5">High Fashion (Exclusive, Designer, Couture)</system:String>
+    <system:String x:Key="style_hairstyle_5">Bald</system:String>
+    <system:String x:Key="style_clothing_6">Bohemian (Folksy, Retro, Free-spirited)</system:String>
+    <system:String x:Key="style_hairstyle_6">Striped</system:String>
+    <system:String x:Key="style_clothing_7">Bag Lady Chic (Homeless, Ragged, Vagrant)</system:String>
+    <system:String x:Key="style_hairstyle_7">Wild colors</system:String>
+    <system:String x:Key="style_clothing_8">Gang Colors (Dangerous, Violent, Rebellious)</system:String>
+    <system:String x:Key="style_hairstyle_8">Neat and short</system:String>
+    <system:String x:Key="style_clothing_9">Nomad Leathers (Western, Rugged, Tribal)</system:String>
+    <system:String x:Key="style_hairstyle_9">Short and curly</system:String>
+    <system:String x:Key="style_clothing_10">Asia Pop (Bright, Costume-like, Youthful)</system:String>
+    <system:String x:Key="style_hairstyle_10">Long and straigh</system:String>
+
+    <!--Affection You Are Never Without-->
+    <system:String x:Key="style_affection_1">Tattoos</system:String>
+    <system:String x:Key="style_affection_2">Mirrorshades</system:String>
+    <system:String x:Key="style_affection_3">Ritual scars</system:String>
+    <system:String x:Key="style_affection_4">Spiked gloves</system:String>
+    <system:String x:Key="style_affection_5">Nose rings</system:String>
+    <system:String x:Key="style_affection_6">Tongue or other piercings</system:String>
+    <system:String x:Key="style_affection_7">Strange fingernail implants</system:String>
+    <system:String x:Key="style_affection_8">Spiked boots or heels</system:String>
+    <system:String x:Key="style_affection_9">Fingerless gloves</system:String>
+    <system:String x:Key="style_affection_10">Strange contacts</system:String>
+    
+    <!--What Do You Value Most-->
+    <system:String x:Key="style_affection_1">Money</system:String>
+        <system:String x:Key="style_affection_1">I stay neutral.</system:String>
+            <system:String x:Key="style_affection_1">Honor</system:String>
+                <system:String x:Key="style_affection_1">I stay neutral.</system:String>
+                    <system:String x:Key="style_affection_1">Your word</system:String>
+                        <system:String x:Key="style_affection_1">I like almost everyone.</system:String>
+                            <system:String x:Key="style_affection_1">Honesty</system:String>
+                                <system:String x:Key="style_affection_1">I hate almost everyone.</system:String>
+                                    <system:String x:Key="style_affection_1">Knowledge</system:String>
+                                        <system:String x:Key="style_affection_1">People are tools. Use them for your own goals then discard them.</system:String>
+                                            <system:String x:Key="style_affection_1">Vengeance</system:String>
+                                                <system:String x:Key="style_affection_1">Every person is a valuable individual.</system:String>
+                                                    <system:String x:Key="style_affection_1">Love</system:String>
+                                                        <system:String x:Key="style_affection_1">People are obstacles to be destroyed if they cross me.</system:String>
+                                                            <system:String x:Key="style_affection_1">Power</system:String>
+                                                                <system:String x:Key="style_affection_1">People are untrustworthy. Don't depend on anyone.</system:String>
+                                                                    <system:String x:Key="style_affection_1">Family</system:String>
+                                                                        <system:String x:Key="style_affection_1">Wipe ‘em all out and let the cockroaches take over.</system:String>
+                                                                            <system:String x:Key="style_affection_1">Friendship</system:String>
+                                                                                <system:String x:Key="style_affection_1">People are wonderful!</system:String>
+    <!--How Do You Feel About Most People-->
+    
+    <!--Most Valued Person In Your Life-->
+    
+    <!--Most Valued Possession You Own-->
+    
+    <!--Family Background-->
+    
+    <!--Childhood Environment-->
+    
+    <!--You Family Crisis-->
+    
+    <!--Your Life Goals-->
+    
+    <!--Specyfic Character Lifestyle-->
+    
+</ResourceDictionary>
