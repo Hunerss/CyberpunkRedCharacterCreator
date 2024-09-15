@@ -4,6 +4,19 @@
     <!--Menu texts-->
     <!--idk-->
     <system:String x:Key="menu_text_radnom">Random</system:String>
+    <system:String x:Key="menu_text_confirm">Confirm</system:String>
+    <system:String x:Key="menu_text_cancel">Cancel</system:String>
+    
+    <system:String x:Key="menuItem_header_lifepath">Lifepath</system:String>
+    <system:String x:Key="menuItem_header_relationship">Relationship</system:String>
+    <system:String x:Key="menuItem_header_stats">Stats</system:String>
+    <system:String x:Key="menuItem_header_skills">Skills</system:String>
+    <system:String x:Key="menuItem_header_fashion">Fashion</system:String>
+    <system:String x:Key="menuItem_header_ability">Ability</system:String>
+
+    <system:String x:Key="menu_text_relationship_status_1">You're a loner.</system:String>
+    <system:String x:Key="menu_text_relationship_status_1">That contats are not pernament.</system:String>
+
 
     <!--Classes names-->
     <system:String x:Key="class_name_exec">Exec</system:String>
@@ -262,6 +275,565 @@
 
     <!--Relationships-->
     
+    <!--Friends and family-->
+    <!--Roll 1d10 and subtract 7 (minimum 0) to see just how many friends you've made so far in your life. For each friend, roll on the table below.-->
+
+    <system:String x:Key="relationships_1">Like an older sibling to you.</system:String>
+    <system:String x:Key="relationships_2">Like a younger sibling to you.</system:String>
+    <system:String x:Key="relationships_3">A teacher or mentor.</system:String>
+    <system:String x:Key="relationships_4">A partner or coworker.</system:String>
+    <system:String x:Key="relationships_5">A former lover.</system:String>
+    <system:String x:Key="relationships_6">An old enemy.</system:String>
+    <system:String x:Key="relationships_7">Like a parent to you.</system:String>
+    <system:String x:Key="relationships_8">An old childhood friend.</system:String>
+    <system:String x:Key="relationships_9">Someone you know from The Street.</system:String>
+    <system:String x:Key="relationships_10">Someone with a common interest or goal.</system:String>
+    
+    <!--Enemies-->
+    <!--First, roll 1d10 and subtract 7 (minimum 0) to determine how many enemies you've made. Then, for each one, decide who was the injured party and roll once on each of the columns below. Once you have determined what your enemy is like, go to the Sweet Revenge table to see how the offended party will act if the two of you ever meet again.-->
+    
+    <!--Enemy-->
+    <system:String x:Key="enemy_1">Ex-friend</system:String>
+    <system:String x:Key="enemy_2">Ex-lover</system:String>
+    <system:String x:Key="enemy_3">Estranged relative</system:String>
+    <system:String x:Key="enemy_4">Childhood enemy</system:String>
+    <system:String x:Key="enemy_5">Person working for you</system:String>
+    <system:String x:Key="enemy_6">Person you work for</system:String>
+    <system:String x:Key="enemy_7">Partner or coworker</system:String>
+    <system:String x:Key="enemy_8">Corporate exec</system:String>
+    <system:String x:Key="enemy_9">Government official</system:String>
+    <system:String x:Key="enemy_10">Boosterganger</system:String>
+    
+    <!--Cause-->
+    <system:String x:Key="cause_1">Caused the other to lose face or status.</system:String>
+    <system:String x:Key="cause_2">Caused the loss of lover, friend, or relative.</system:String>
+    <system:String x:Key="cause_3">Caused a major public humiliation.</system:String>
+    <system:String x:Key="cause_4">Accused the other of cowardice or some other major personal flaw.</system:String>
+    <system:String x:Key="cause_5">Deserted or betrayed the other.</system:String>
+    <system:String x:Key="cause_6">Turned down the other's offer of a job or romantic involvement.</system:String>
+    <system:String x:Key="cause_7">You just don't like each other.</system:String>
+    <system:String x:Key="cause_8">One of you was a romantic rival.</system:String>
+    <system:String x:Key="cause_9">One of you was a business rival.</system:String>
+    <system:String x:Key="cause_10">One of you set the other up for a crime they didn't commit.</system:String>
+    
+    <!--Strenght-->
+    <system:String x:Key="party_1">Just themselves and even they won't go out of their way.</system:String>
+    <system:String x:Key="party_2">Just themselves.</system:String>
+    <system:String x:Key="party_3">Just themselves and a close friend.</system:String>
+    <system:String x:Key="party_4">Themselves and a few (1d6/2) friends.</system:String>
+    <system:String x:Key="party_5">Themselves and a few (1d10/2) friends.</system:String>
+    <system:String x:Key="party_6">An entire gang (at least 1d10 + 5 people).</system:String>
+    <system:String x:Key="party_7">The local cops or other Lawmen.</system:String>
+    <system:String x:Key="party_8">A powerful gang lord or small Corporation.</system:String>
+    <system:String x:Key="party_9">A powerful Corporation.</system:String>
+    <system:String x:Key="party_10">An entire city or government or agency.</system:String>
+
+    <!--Revange-->
+    <!--1-2-->
+    <system:String x:Key="revange_1">Avoid the scum.</system:String>
+    <!--3-4--> 
+    <system:String x:Key="revange_2">Go into a murderous rage and try to physically rip their face off.</system:String>
+    <!--5-6--> 
+    <system:String x:Key="revange_3">Backstab them indirectly.</system:String>
+    <!--7-8--> 
+    <system:String x:Key="revange_4">Verbally attack them.</system:String>
+    <!--9--> 
+    <system:String x:Key="revange_5">Set them up for a crime or other transgression they didn't commit.</system:String>
+    <!--10-->
+    <system:String x:Key="revange_6">Set out to murder or maim them</system:String>
+    
+    <!--Tragic Love-->
+    <system:String x:Key="love_1">Your lover died in an accident.</system:String>
+    <system:String x:Key="love_2">Your lover mysteriously vanished.</system:String>
+    <system:String x:Key="love_3">It just didn't work out.</system:String>
+    <system:String x:Key="love_4">A personal goal or vendetta came between you and your lover.</system:String>
+    <system:String x:Key="love_5">Your lover was kidnapped.</system:String>
+    <system:String x:Key="love_6">Your lover went insane or cyberpsycho.</system:String>
+    <system:String x:Key="love_7">Your lover committed suicide.</system:String>
+    <system:String x:Key="love_8">Your lover was killed in a fight.</system:String>
+    <system:String x:Key="love_9">A rival cut you out of the action.</system:String>
+    <system:String x:Key="love_10">Your lover is imprisoned or exiled</system:String>
+
     <!--Specyfic Character Lifestyle-->
     
+    <!--Rokcerboy/Rockergirl-->
+    
+    <!--What Kind of Rockerboy are You?-->
+    <system:String x:Key="rockerboy_kind_1">Musician</system:String>
+    <system:String x:Key="rockerboy_kind_2">Slam Poet</system:String>
+    <system:String x:Key="rockerboy_kind_3">Street Artist</system:String>
+    <system:String x:Key="rockerboy_kind_4">Performance Artist</system:String>
+    <system:String x:Key="rockerboy_kind_5">Comedian</system:String>
+    <system:String x:Key="rockerboy_kind_6">Orator</system:String>
+    <system:String x:Key="rockerboy_kind_7">Politico</system:String>
+    <system:String x:Key="rockerboy_kind_8">Rap Artist</system:String>
+    <system:String x:Key="rockerboy_kind_9">DJ</system:String>
+    <system:String x:Key="rockerboy_kind_10">Idoru</system:String>
+
+    <!--Are You in a Group or a Solo Act?-->
+    <system:String x:Key="rockerboy_group_1">In a Group</system:String>
+    <system:String x:Key="rockerboy_group_2">Solo Act</system:String>
+
+    <!--Were You Once in a Group?-->
+    <system:String x:Key="rockerboy_group_past_1">Was once part of group.</system:String>
+    <system:String x:Key="rockerboy_group_past_2">Always been a solo act.</system:String>
+
+    <!--If rockerboy_group_past_1-->
+    <!--Why Did You Leave?-->
+    <system:String x:Key="rockerboy_leave_1">You were a jerk and the rest of the group voted you out.</system:String>
+    <system:String x:Key="rockerboy_leave_2">You got caught sleeping around with another member's mainline.</system:String>
+    <system:String x:Key="rockerboy_leave_3">The rest of the group was killed in a tragic "accident."</system:String>
+    <system:String x:Key="rockerboy_leave_4">The rest of the group was murdered or otherwise broken up by external enemies.</system:String>
+    <system:String x:Key="rockerboy_leave_5">The group broke up over "creative differences."</system:String>
+    <system:String x:Key="rockerboy_leave_6">You decided to go solo.</system:String>
+
+    <!--Where Do You Perform?-->
+    <system:String x:Key="rockerboy_venue_1">Alternative Cafes</system:String>
+    <system:String x:Key="rockerboy_venue_2">Private Clubs</system:String>
+    <system:String x:Key="rockerboy_venue_3">Seedy Dive Bars</system:String>
+    <system:String x:Key="rockerboy_venue_4">Guerrilla Performances</system:String>
+    <system:String x:Key="rockerboy_venue_5">Nightclubs Around the City</system:String>
+    <system:String x:Key="rockerboy_venue_6">On the Data Pool</system:String>
+
+    <!--Who's Gunning for You/Your Group?-->
+    <system:String x:Key="rockerboy_enemy_1">Old group member who thinks you did them dirty.</system:String>
+    <system:String x:Key="rockerboy_enemy_2">Rival group or artist trying to steal market share.</system:String>
+    <system:String x:Key="rockerboy_enemy_3">Corporate enemies who don't like your message.</system:String>
+    <system:String x:Key="rockerboy_enemy_4">Critic or other "influencer" trying to bring you down.</system:String>
+    <system:String x:Key="rockerboy_enemy_5">Older media star who feels threatened by your rising fame.</system:String>
+    <system:String x:Key="rockerboy_enemy_6">Romantic interest or media figure who wants revenge for personal reasons.</system:String>
+
+    <!--Netrunner-->
+    
+    <!--What Kind of Runner are You?-->
+    <system:String x:Key="netrunner_kind_1">Freelancer who will hack for hire.</system:String>
+    <system:String x:Key="netrunner_kind_2">Corporate "clone runner" who hacks for the Man.</system:String>
+    <system:String x:Key="netrunner_kind_3">Hacktivist interested in cracking systems and exposing bad guys.</system:String>
+    <system:String x:Key="netrunner_kind_4">Just like to crack systems for the fun of it.</system:String>
+    <system:String x:Key="netrunner_kind_5">Part of a regular team of freelancers.</system:String>
+    <system:String x:Key="netrunner_kind_6">Hack for a Media, politico, or Lawman who hires you as needed.</system:String>
+
+    <!--Got a Partner, or Do You Work Alone?-->
+    <system:String x:Key="netrunner_partner_1">Got a Partner</system:String>
+    <system:String x:Key="netrunner_partner_2">Work Alone</system:String>
+
+    <!--IF tech_partner_1-->
+    <system:String x:Key="netrunner_partner_who_1">Family member</system:String>
+    <system:String x:Key="netrunner_partner_who_2">Old friend</system:String>
+    <system:String x:Key="netrunner_partner_who_3">Possible romantic partner as well</system:String>
+    <system:String x:Key="netrunner_partner_who_4">Secret partner who might be a rogue AI. Might.</system:String>
+    <system:String x:Key="netrunner_partner_who_5">Secret partner with mob/gang connections.</system:String>
+    <system:String x:Key="netrunner_partner_who_6">Secret partner with Corporate connections.</system:String>
+
+    <!--What's Your Workspace Like?-->
+    <system:String x:Key="netrunner_workspace_1">There are screens everywhere.</system:String>
+    <system:String x:Key="netrunner_workspace_2">It looks better in Virtuality, you swear.</system:String>
+    <system:String x:Key="netrunner_workspace_3">It's a filthy bed covered in wires.</system:String>
+    <system:String x:Key="netrunner_workspace_4">Corporate, modular, and utilitarian.</system:String>
+    <system:String x:Key="netrunner_workspace_5">Minimalist, clean, and organized.</system:String>
+    <system:String x:Key="netrunner_workspace_6">It's taken over your entire living space.</system:String>
+
+    <!--Who are Some of Your Other Clients?-->
+    <system:String x:Key="netrunner_clients_1">Local Fixers who send you clients.</system:String>
+    <system:String x:Key="netrunner_clients_2">Local gangers who also protect your work area while you sweep for NET threats.</system:String>
+    <system:String x:Key="netrunner_clients_3">Corporate Execs who use you for "black project" work.</system:String>
+    <system:String x:Key="netrunner_clients_4">Local Solos or other combat types who use you to keep their personal systems secure.</system:String>
+    <system:String x:Key="netrunner_clients_5">Local Nomads and Fixers who use you to keep their family systems secure.</system:String>
+    <system:String x:Key="netrunner_clients_6">You work for yourself and sell whatever data you can find on the NET.</system:String>
+
+    <!--Where Do You Get Your Programs?-->
+    <system:String x:Key="netrunner_programs_1">Dig around in old abandoned City Zones.</system:String>
+    <system:String x:Key="netrunner_programs_2">Steal them from other Netrunners you brain-burn.</system:String>
+    <system:String x:Key="netrunner_programs_3">Have a local Fixer supply programs in exchange for hack work.</system:String>
+    <system:String x:Key="netrunner_programs_4">Corporate Execs supply you with programs in exchange for your services.</system:String>
+    <system:String x:Key="netrunner_programs_5">You have backdoors into a few Corporate warehouses.</system:String>
+    <system:String x:Key="netrunner_programs_6">You hit the Night Markets and score programs whenever you can.</system:String>
+
+
+    <!--Who's Gunning for You?-->
+    <system:String x:Key="netrunner_enemy_1">You think it might be a rogue AI or a NET Ghost. Either way, it's bad news.</system:String>
+    <system:String x:Key="netrunner_enemy_2">Rival Netrunners who just don't like you.</system:String>
+    <system:String x:Key="netrunner_enemy_3">Corporates who want you to work for them exclusively.</system:String>
+    <system:String x:Key="netrunner_enemy_4">Lawmen who consider you an illegal "black hat" and want to bust you.</system:String>
+    <system:String x:Key="netrunner_enemy_5">Old clients who think you screwed them over.</system:String>
+    <system:String x:Key="netrunner_enemy_6">Fixer or another client who wants your services exclusively.</system:String>
+    
+    <!--Solo-->
+
+    <!--What Kind of Solo are You?-->
+    <system:String x:Key="solo_kind_1">Bodyguard</system:String>
+    <system:String x:Key="solo_kind_2">Street Muscle for Hire</system:String>
+    <system:String x:Key="solo_kind_3">Corporate Enforcer who takes jobs on the side</system:String>
+    <system:String x:Key="solo_kind_4">Corporate or Freelance Black Ops Agent</system:String>
+    <system:String x:Key="solo_kind_5">Local Vigilante for Hire</system:String>
+    <system:String x:Key="solo_kind_6">Assassin/Hitman for Hire</system:String>
+
+    <!--What's Your Operational Territory?-->
+    <system:String x:Key="solo_territory_1">A Corporate Zone</system:String>
+    <system:String x:Key="solo_territory_2">Combat Zones</system:String>
+    <system:String x:Key="solo_territory_3">The whole City</system:String>
+    <system:String x:Key="solo_territory_4">The territory of a single Corporation</system:String>
+    <system:String x:Key="solo_territory_5">The territory of a particular Fixer or contact</system:String>
+    <system:String x:Key="solo_territory_6">Wherever the money takes you</system:String>
+
+    <!--Who's Gunning for You?-->
+    <system:String x:Key="solo_enemy_1">A Corporation you may have angered.</system:String>
+    <system:String x:Key="solo_enemy_2">A boostergang you may have tackled earlier.</system:String>
+    <system:String x:Key="solo_enemy_3">Corrupt Lawmen or Lawmen who mistakenly think you're guilty of something.</system:String>
+    <system:String x:Key="solo_enemy_4">A rival Solo from another Corp.</system:String>
+    <system:String x:Key="solo_enemy_5">A Fixer who sees you as a threat.</system:String>
+    <system:String x:Key="solo_enemy_6">A rival Solo who sees you as their nemesis.</system:String>
+
+    <!--What's Your Moral Compass Like?-->
+    <system:String x:Key="solo_moral_compass_1">Always working for good, trying to take out the "bad guys."</system:String>
+    <system:String x:Key="solo_moral_compass_2">Always spare the innocent (elderly, women, children, pets).</system:String>
+    <system:String x:Key="solo_moral_compass_3">Will occasionally slip and do unethical or bad things, but it's rare.</system:String>
+    <system:String x:Key="solo_moral_compass_4">Ruthless and profit centered; you will work for anyone, take any job for the money.</system:String>
+    <system:String x:Key="solo_moral_compass_5">Willing to bend the rules (and the law) to get the job done.</system:String>
+    <system:String x:Key="solo_moral_compass_6">Totally evil. You engage in illegal, unethical work all the time; in fact, you enjoy it.</system:String>
+
+    <!--Tech-->
+
+    <!--What Kind of Tech are You?-->
+    <system:String x:Key="tech_kind_1">Cyberware Technician</system:String>
+    <system:String x:Key="tech_kind_2">Vehicle Mechanic</system:String>
+    <system:String x:Key="tech_kind_3">Jack of All Trades</system:String>
+    <system:String x:Key="tech_kind_4">Small Electronics Technician</system:String>
+    <system:String x:Key="tech_kind_5">Weaponsmith</system:String>
+    <system:String x:Key="tech_kind_6">Crazy Inventor</system:String>
+    <system:String x:Key="tech_kind_7">Robot and Drone Mechanic</system:String>
+    <system:String x:Key="tech_kind_8">Heavy Machinery Mechanic</system:String>
+    <system:String x:Key="tech_kind_9">Scavenger</system:String>
+    <system:String x:Key="tech_kind_10">Nautical Mechanic</system:String>
+
+    <!--Got a Partner, or Do You Work Alone?-->
+    <system:String x:Key="tech_partner_1">Got a Partner</system:String>
+    <system:String x:Key="tech_partner_2">Work Alone</system:String>
+
+    <!--If You Have a Partner, Who are They?-->
+    <system:String x:Key="tech_partner_who_1">Family member</system:String>
+    <system:String x:Key="tech_partner_who_2">Old friend</system:String>
+    <system:String x:Key="tech_partner_who_3">Possible romantic partner as well</system:String>
+    <system:String x:Key="tech_partner_who_4">Mentor</system:String>
+    <system:String x:Key="tech_partner_who_5">Secret partner with mob/gang connections</system:String>
+    <system:String x:Key="tech_partner_who_6">Secret partner with Corporate connections</system:String>
+
+    <!--What's Your Workspace Like?-->
+    <system:String x:Key="tech_workspace_1">A mess strewn with blueprint paper.</system:String>
+    <system:String x:Key="tech_workspace_2">Everything is color coded, but it's still a nightmare.</system:String>
+    <system:String x:Key="tech_workspace_3">Totally digital and obsessively backed up every day.</system:String>
+    <system:String x:Key="tech_workspace_4">You design everything on your Agent.</system:String>
+    <system:String x:Key="tech_workspace_5">You keep everything just in case you need it later.</system:String>
+    <system:String x:Key="tech_workspace_6">Only you understand your filing system.</system:String>
+
+    <!--Who are Your Main Clients?-->
+    <system:String x:Key="tech_clients_1">Local Fixers who send you clients.</system:String>
+    <system:String x:Key="tech_clients_2">Local gangers who also protect your work area or home.</system:String>
+    <system:String x:Key="tech_clients_3">Corporate Execs who use you for "black project" work.</system:String>
+    <system:String x:Key="tech_clients_4">Local Solos or other combat types who use you for weapon upkeep.</system:String>
+    <system:String x:Key="tech_clients_5">Local Nomads and Fixers who bring you "found" tech to repair.</system:String>
+    <system:String x:Key="tech_clients_6">You work for yourself and sell what you invent/repair.</system:String>
+
+    <!--Where Do You Get Your Supplies?-->
+    <system:String x:Key="tech_supplies_1">Scavenge the wreckage you find in abandoned City Zones.</system:String>
+    <system:String x:Key="tech_supplies_2">Strip gear from bodies after firefights.</system:String>
+    <system:String x:Key="tech_supplies_3">Have a local Fixer bring you supplies in exchange for repair work.</system:String>
+    <system:String x:Key="tech_supplies_4">Corporate Execs supply you with stuff in exchange for your services.</system:String>
+    <system:String x:Key="tech_supplies_5">You have backdoor into a few Corporate warehouses.</system:String>
+    <system:String x:Key="tech_supplies_6">You hit the Night Markets and score deals whenever you can.</system:String>
+
+    <!--Who's Gunning for You?-->
+    <system:String x:Key="tech_enemy_1">Combat Zone gangers who want you to work for them exclusively.</system:String>
+    <system:String x:Key="tech_enemy_2">Rival Tech trying to steal your customers.</system:String>
+    <system:String x:Key="tech_enemy_3">Corporates who want you to work for them exclusively.</system:String>
+    <system:String x:Key="tech_enemy_4">Larger manufacturer trying to bring you down because your mods are a threat.</system:String>
+    <system:String x:Key="tech_enemy_5">Old client who thinks you screwed them over.</system:String>
+    <system:String x:Key="tech_enemy_6">Rival Tech trying to beat you out for resources and parts.</system:String>
+
+    <!--Medtech-->
+
+    <!--What Kind of Medtech are You?-->
+    <system:String x:Key="medtech_kind_1">Surgeon</system:String>
+    <system:String x:Key="medtech_kind_2">General Practitioner</system:String>
+    <system:String x:Key="medtech_kind_3">Trauma Medic</system:String>
+    <system:String x:Key="medtech_kind_4">Psychiatrist</system:String>
+    <system:String x:Key="medtech_kind_5">Cyberpsycho Therapist</system:String>
+    <system:String x:Key="medtech_kind_6">Ripperdoc</system:String>
+    <system:String x:Key="medtech_kind_7">Cryosystems Operator</system:String>
+    <system:String x:Key="medtech_kind_8">Pharmacist</system:String>
+    <system:String x:Key="medtech_kind_9">Bodysculptor</system:String>
+    <system:String x:Key="medtech_kind_10">Forensic Pathologist</system:String>
+
+    <!--What's Your Workspace Like?-->
+    <system:String x:Key="medtech_workspace_1">Sterilized daily in the morning like clockwork.</system:String>
+    <system:String x:Key="medtech_workspace_2">It's not state-of-the-art anymore, but it's comfortable to you.</system:String>
+    <system:String x:Key="medtech_workspace_3">Your cryo equipment is also used to cool drinks.</system:String>
+    <system:String x:Key="medtech_workspace_4">Everything possible is single-use and stored compacted until needed.</system:String>
+    <system:String x:Key="medtech_workspace_5">Not as clean as many of your patients may have hoped.</system:String>
+    <system:String x:Key="medtech_workspace_6">Meticulously organized, sharpened, and sterilized.</system:String>
+
+    <!--Got a Partner, or Do You Work Alone?-->
+    <system:String x:Key="medtech_partner_1">Got a Partner</system:String>
+    <system:String x:Key="medtech_partner_2">Work Alone</system:String>
+
+    <!--Tell Us About Your Partner(s)-->
+    <system:String x:Key="medtech_partner_who_1">Trauma Team group</system:String>
+    <system:String x:Key="medtech_partner_who_2">Old friend</system:String>
+    <system:String x:Key="medtech_partner_who_3">Possible romantic partner as well</system:String>
+    <system:String x:Key="medtech_partner_who_4">Family member</system:String>
+    <system:String x:Key="medtech_partner_who_5">Secret partner with mob/gang connections</system:String>
+    <system:String x:Key="medtech_partner_who_6">Secret partner with Corporate connections</system:String>
+
+    <!--Who are Your Main Clients?-->
+    <system:String x:Key="medtech_clients_1">Local Fixers who send you clients.</system:String>
+    <system:String x:Key="medtech_clients_2">Local gangers who also protect your work area or home in exchange for medical help.</system:String>
+    <system:String x:Key="medtech_clients_3">Corporate Execs who use you for "black project" medical work.</system:String>
+    <system:String x:Key="medtech_clients_4">Local Solos or other combat types who use you for medical help.</system:String>
+    <system:String x:Key="medtech_clients_5">Local Nomads and Fixers who bring you wounded clients.</system:String>
+    <system:String x:Key="medtech_clients_6">Trauma Team paramedical work.</system:String>
+
+    <!--Where Do You Get Your Supplies?-->
+    <system:String x:Key="medtech_supplies_1">Scavenge stashes of medical supplies you find in abandoned City Zones.</system:String>
+    <system:String x:Key="medtech_supplies_2">Strip parts from bodies after firefights.</system:String>
+    <system:String x:Key="medtech_supplies_3">Have a local Fixer bring you supplies in exchange for medical work.</system:String>
+    <system:String x:Key="medtech_supplies_4">Corporate Execs or Trauma Team supply you with stuff in exchange for your services.</system:String>
+    <system:String x:Key="medtech_supplies_5">You have a backdoor into a few Corporate or Hospital warehouses.</system:String>
+    <system:String x:Key="medtech_supplies_6">You hit the Night Markets and score deals whenever you can.</system:String>
+
+    <!--Media-->
+
+    <!--What Kind of Media are You?-->
+    <system:String x:Key="media_kind_1">Blogger</system:String>
+    <system:String x:Key="media_kind_2">Writer (Books)</system:String>
+    <system:String x:Key="media_kind_3">Videographer</system:String>
+    <system:String x:Key="media_kind_4">Documentarian</system:String>
+    <system:String x:Key="media_kind_5">Investigative Reporter</system:String>
+    <system:String x:Key="media_kind_6">Street Scribe</system:String>
+
+    <!--How Ethical are You?-->
+    <system:String x:Key="media_ethics_1">Fair, honest reporting, strong ethical practices. You only report the verifiable truth.</system:String>
+    <system:String x:Key="media_ethics_2">Fair and honest reporting, but willing to go on hearsay and rumor if that's what it takes.</system:String>
+    <system:String x:Key="media_ethics_3">Will occasionally slip and do unethical things, but it's rare. You have some standards.</system:String>
+    <system:String x:Key="media_ethics_4">Willing to bend any rules to get the bad guys. But only the bad guys.</system:String>
+    <system:String x:Key="media_ethics_5">Ruthless and determined to make it big, even if it means breaking the law. You're a muckraker.</system:String>
+    <system:String x:Key="media_ethics_6">Totally corrupt. You take bribes, engage in illegal, unethical reporting all the time. Your pen is for hire to the highest bidder.</system:String>
+
+    <!--How Does Your Work Reach the Public?-->
+    <system:String x:Key="media_public_1">Monthly magazine</system:String>
+    <system:String x:Key="media_public_2">Blog</system:String>
+    <system:String x:Key="media_public_3">Mainstream vid feed</system:String>
+    <system:String x:Key="media_public_4">News channel</system:String>
+    <system:String x:Key="media_public_5">"Book" sales</system:String>
+    <system:String x:Key="media_public_6">Screamsheets</system:String>
+
+    <!--What Types of Stories Do You Want to Tell?-->
+    <system:String x:Key="media_stories_1">Political Intrigue</system:String>
+    <system:String x:Key="media_stories_2">Ecological Impact</system:String>
+    <system:String x:Key="media_stories_3">Celebrity News</system:String>
+    <system:String x:Key="media_stories_4">Corporate Takedowns</system:String>
+    <system:String x:Key="media_stories_5">Editorials</system:String>
+    <system:String x:Key="media_stories_6">Propaganda</system:String>
+
+    <!--Exec-->
+
+    <!--What Kind of Corp Do You Work For?-->
+    <system:String x:Key="exec_type_1">Financial</system:String>
+    <system:String x:Key="exec_type_2">Media and Communications</system:String>
+    <system:String x:Key="exec_type_3">Cybertech and Medical Technologies</system:String>
+    <system:String x:Key="exec_type_4">Pharmaceuticals and Biotech</system:String>
+    <system:String x:Key="exec_type_5">Food, Clothing, or other General Consumables</system:String>
+    <system:String x:Key="exec_type_6">Energy Production</system:String>
+    <system:String x:Key="exec_type_7">Personal Electronics and Robotics</system:String>
+    <system:String x:Key="exec_type_8">Corporate Services</system:String>
+    <system:String x:Key="exec_type_9">Consumer Services</system:String>
+    <system:String x:Key="exec_type_10">Real Estate and Construction</system:String>
+
+    <!--What Division Do You Work In?-->
+    <system:String x:Key="exec_division_1">Procurement</system:String>
+    <system:String x:Key="exec_division_2">Manufacturing</system:String>
+    <system:String x:Key="exec_division_3">Research and Development</system:String>
+    <system:String x:Key="exec_division_4">Human Resources</system:String>
+    <system:String x:Key="exec_division_5">Public Affairs/Publicity/Advertising</system:String>
+    <system:String x:Key="exec_division_6">Mergers and Acquisitions</system:String>
+
+    <!--How Good/Bad is Your Corp?-->
+    <system:String x:Key="exec_ethics_1">Always working for good, fully supporting ethical practices.</system:String>
+    <system:String x:Key="exec_ethics_2">Operates as a fair and honest business all the time.</system:String>
+    <system:String x:Key="exec_ethics_3">Will occasionally slip and do unethical things, but it's rare.</system:String>
+    <system:String x:Key="exec_ethics_4">Willing to bend the rules to get what it needs.</system:String>
+    <system:String x:Key="exec_ethics_5">Ruthless and profit-centered, willing to do some bad things.</system:String>
+    <system:String x:Key="exec_ethics_6">Totally evil. Will engage in illegal, unethical business all the time.</system:String>
+
+    <!--Where is Your Corp Based?-->
+    <system:String x:Key="exec_location_1">One city</system:String>
+    <system:String x:Key="exec_location_2">Several cities</system:String>
+    <system:String x:Key="exec_location_3">Statewide</system:String>
+    <system:String x:Key="exec_location_4">National</system:String>
+    <system:String x:Key="exec_location_5">International, offices in a few major cities</system:String>
+    <system:String x:Key="exec_location_6">International, offices everywhere</system:String>
+
+    <!--Who's Gunning for Your Group?-->
+    <system:String x:Key="exec_enemy_1">Rival Corp in the same industry.</system:String>
+    <system:String x:Key="exec_enemy_2">Law enforcement is watching you.</system:String>
+    <system:String x:Key="exec_enemy_3">Local Media wants to bring you down.</system:String>
+    <system:String x:Key="exec_enemy_4">Different divisions in your own company are feuding with each other.</system:String>
+    <system:String x:Key="exec_enemy_5">Local government doesn't like your Corp.</system:String>
+    <system:String x:Key="exec_enemy_6">International Corporations are eyeing you for a hostile takeover.</system:String>
+
+    <!--Lawman-->
+
+    <!--What is Your Position on the Force-->
+    <system:String x:Key="lawman_position_1">Guard</system:String>
+    <system:String x:Key="lawman_position_2">Standard Beat or Patrol</system:String>
+    <system:String x:Key="lawman_position_3">Criminal Investigation</system:String>
+    <system:String x:Key="lawman_position_4">Special Weapons and Tactics</system:String>
+    <system:String x:Key="lawman_position_5">Motor Patrol</system:String>
+    <system:String x:Key="lawman_position_6">Internal Affairs</system:String>
+
+    <!--How Wide is Your Group's Jurisdiction?-->
+    <system:String x:Key="lawman_jurisdiction_1">Corporate Zones</system:String>
+    <system:String x:Key="lawman_jurisdiction_2">Standard City Patrol Zone</system:String>
+    <system:String x:Key="lawman_jurisdiction_3">Combat Zones</system:String>
+    <system:String x:Key="lawman_jurisdiction_4">Outer City</system:String>
+    <system:String x:Key="lawman_jurisdiction_5">Recovery Zones</system:String>
+    <system:String x:Key="lawman_jurisdiction_6">Open Highways</system:String>
+
+    <!--How Corrupt is Your Group?-->
+    <system:String x:Key="lawman_corruption_1">Fair, honest policing, strong ethical practices.</system:String>
+    <system:String x:Key="lawman_corruption_2">Fair and honest policing, but hard on lawbreakers.</system:String>
+    <system:String x:Key="lawman_corruption_3">Will occasionally slip and do unethical things, but it's rare.</system:String>
+    <system:String x:Key="lawman_corruption_4">Willing to bend any rules to get the bad guys.</system:String>
+    <system:String x:Key="lawman_corruption_5">Ruthless and determined to control The Street, even if it means breaking the law.</system:String>
+    <system:String x:Key="lawman_corruption_6">Totally corrupt. You take bribes, engage in illegal, and unethical business all the time.</system:String>
+
+    <!--Who's Gunning for Your Group?-->
+    <system:String x:Key="lawman_enemy_1">Organized Crime</system:String>
+    <system:String x:Key="lawman_enemy_2">Boostergangs</system:String>
+    <system:String x:Key="lawman_enemy_3">Police Accountability Group</system:String>
+    <system:String x:Key="lawman_enemy_4">Dirty Politicians</system:String>
+    <system:String x:Key="lawman_enemy_5">Smugglers</system:String>
+    <system:String x:Key="lawman_enemy_6">Street Criminals</system:String>
+
+    <!--Who is Your Group's Major Target?-->
+    <system:String x:Key="lawman_target_1">Organized Crime</system:String>
+    <system:String x:Key="lawman_target_2">Boostergangs</system:String>
+    <system:String x:Key="lawman_target_3">Drug Runners</system:String>
+    <system:String x:Key="lawman_target_4">Dirty Politicians</system:String>
+    <system:String x:Key="lawman_target_5">Smugglers</system:String>
+    <system:String x:Key="lawman_target_6">Street Crime</system:String>
+
+    <!-- Fixer -->
+
+    <!-- What Kind of Fixer are You? -->
+    <system:String x:Key="fixer_type_1">Broker deals between rival gangs.</system:String>
+    <system:String x:Key="fixer_type_2">Procure rare or atypical resources for exclusive clientele.</system:String>
+    <system:String x:Key="fixer_type_3">Specialize in brokering Solo or Tech services as an agent.</system:String>
+    <system:String x:Key="fixer_type_4">Supply a regular resource for the Night Markets, like food, medicines, or drugs.</system:String>
+    <system:String x:Key="fixer_type_5">Procure highly illegal resources, like street drugs or milspec weapons.</system:String>
+    <system:String x:Key="fixer_type_6">Supply resources for Techs and Medtechs, like parts and medical supplies.</system:String>
+    <system:String x:Key="fixer_type_7">Operate several successful Night Markets, although not as owner.</system:String>
+    <system:String x:Key="fixer_type_8">Broker use contracts for heavy machinery, military vehicles, and aircraft.</system:String>
+    <system:String x:Key="fixer_type_9">Broker deals as a fence for scavengers raiding Corps or Combat Zones.</system:String>
+    <system:String x:Key="fixer_type_10">Act as an exclusive agent for a Media, Rockerboy, or a Nomad Pack.</system:String>
+
+    <!-- What's Your "Office" Like? -->
+    <system:String x:Key="fixer_office_1">You don't have one. You like to keep it mobile.</system:String>
+    <system:String x:Key="fixer_office_2">A booth in a local bar.</system:String>
+    <system:String x:Key="fixer_office_3">All Data Pool messages and anonymous dead drops.</system:String>
+    <system:String x:Key="fixer_office_4">Spare room in a warehouse, shop, or clinic.</system:String>
+    <system:String x:Key="fixer_office_5">An otherwise abandoned building.</system:String>
+    <system:String x:Key="fixer_office_6">The lobby of a cube hotel.</system:String>
+
+    <!-- Got a Partner or Work Alone? -->
+    <!-- Choose either Got a Partner or Work Alone. -->
+
+    <!-- Got a Partner? Who? -->
+    <system:String x:Key="fixer_partner_1">Family member</system:String>
+    <system:String x:Key="fixer_partner_2">Old friend</system:String>
+    <system:String x:Key="fixer_partner_3">Possible romantic partner as well</system:String>
+    <system:String x:Key="fixer_partner_4">Mentor</system:String>
+    <system:String x:Key="fixer_partner_5">Secret partner with mob/gang connections</system:String>
+    <system:String x:Key="fixer_partner_6">Secret partner with Corporate connections</system:String>
+
+    <!-- Who are Your Side Clients? -->
+    <system:String x:Key="fixer_clients_1">Local Rockerboys or Medias who use you to get them gigs or contacts.</system:String>
+    <system:String x:Key="fixer_clients_2">Local gangers who also protect your work area or home.</system:String>
+    <system:String x:Key="fixer_clients_3">Corporate Execs who use you for "black project" procurement work.</system:String>
+    <system:String x:Key="fixer_clients_4">Local Solos or other combat types who use you to get them jobs or contacts.</system:String>
+    <system:String x:Key="fixer_clients_5">Local Nomads and Fixers who use you to set up transactions or deals.</system:String>
+    <system:String x:Key="fixer_clients_6">Local politicos or Execs who depend on you for finding out information.</system:String>
+
+    <!-- Who's Gunning for You? -->
+    <system:String x:Key="fixer_enemy_1">Combat Zone gangers who want you to work for them exclusively.</system:String>
+    <system:String x:Key="fixer_enemy_2">Rival Fixers trying to steal your clients.</system:String>
+    <system:String x:Key="fixer_enemy_3">Execs who want you to work for them exclusively.</system:String>
+    <system:String x:Key="fixer_enemy_4">Enemy of a former client who wants to clean up "loose ends"—like you.</system:String>
+    <system:String x:Key="fixer_enemy_5">Old client who thinks you screwed them over.</system:String>
+    <system:String x:Key="fixer_enemy_6">Rival Fixer trying to beat you out for resources and parts.</system:String>
+
+    <!-- Nomad -->
+
+    <!-- How Big is Your Pack? -->
+    <system:String x:Key="nomad_pack_size_1">A single extended tribe or family</system:String>
+    <system:String x:Key="nomad_pack_size_2">A couple dozen members</system:String>
+    <system:String x:Key="nomad_pack_size_3">Forty or fifty members</system:String>
+    <system:String x:Key="nomad_pack_size_4">A hundred or more members</system:String>
+    <system:String x:Key="nomad_pack_size_5">A Blood Family (hundreds of members)</system:String>
+    <system:String x:Key="nomad_pack_size_6">An Affiliated Family (made of several Blood Families)</system:String>
+
+    <!-- Is Your Pack Based on Land, Air, or Sea? -->
+    <!-- Choose Land, Air, or Sea Nomads. -->
+
+    <!-- If on Land, What Do They Do? -->
+    <system:String x:Key="land_nomads_1">Gogang</system:String>
+    <system:String x:Key="land_nomads_2">Passenger transport</system:String>
+    <system:String x:Key="land_nomads_3">Chautauqua/school</system:String>
+    <system:String x:Key="land_nomads_4">Traveling show/carnival</system:String>
+    <system:String x:Key="land_nomads_5">Migrant farmers</system:String>
+    <system:String x:Key="land_nomads_6">Cargo transport</system:String>
+    <system:String x:Key="land_nomads_7">Shipment protection</system:String>
+    <system:String x:Key="land_nomads_8">Smuggling</system:String>
+    <system:String x:Key="land_nomads_9">Mercenary army</system:String>
+    <system:String x:Key="land_nomads_10">Construction work gang</system:String>
+
+    <!-- If in Air, What Do They Do? -->
+    <system:String x:Key="air_nomads_1">Air piracy</system:String>
+    <system:String x:Key="air_nomads_2">Cargo transport</system:String>
+    <system:String x:Key="air_nomads_3">Passenger transport</system:String>
+    <system:String x:Key="air_nomads_4">Aircraft protection</system:String>
+    <system:String x:Key="air_nomads_5">Smuggling</system:String>
+    <system:String x:Key="air_nomads_6">Combat support</system:String>
+
+    <!-- If at Sea, What Do They Do? -->
+    <system:String x:Key="sea_nomads_1">Piracy</system:String>
+    <system:String x:Key="sea_nomads_2">Cargo transport</system:String>
+    <system:String x:Key="sea_nomads_3">Passenger transport</system:String>
+    <system:String x:Key="sea_nomads_4">Smuggling</system:String>
+    <system:String x:Key="sea_nomads_5">Combat support</system:String>
+    <system:String x:Key="sea_nomads_6">Submarine warfare</system:String>
+
+    <!-- What Do You Do for Your Pack? -->
+    <system:String x:Key="nomad_role_1">Scout (negotiator)</system:String>
+    <system:String x:Key="nomad_role_2">Outrider (protection, weapons)</system:String>
+    <system:String x:Key="nomad_role_3">Transport pilot/driver</system:String>
+    <system:String x:Key="nomad_role_4">Loadmaster (large cargo mover, trucker)</system:String>
+    <system:String x:Key="nomad_role_5">Solo smuggler</system:String>
+    <system:String x:Key="nomad_role_6">Procurement (fuel, vehicles, etc.)</system:String>
+
+    <!-- Who's Gunning for Your Pack? -->
+    <system:String x:Key="nomad_enemy_1">Organized Crime</system:String>
+    <system:String x:Key="nomad_enemy_2">Boostergangs</system:String>
+    <system:String x:Key="nomad_enemy_3">Drug Runners</system:String>
+    <system:String x:Key="nomad_enemy_4">Dirty Politicians</system:String>
+    <system:String x:Key="nomad_enemy_5">Rival Packs in the same businesses</system:String>
+    <system:String x:Key="nomad_enemy_6">Dirty Cops</system:String>
+
+    <!-- What's Your Pack's Overall Philosophy? -->
+    <system:String x:Key="nomad_philosophy_1">Always working for good; your Pack accepts others, just wants to get along.</system:String>
+    <system:String x:Key="nomad_philosophy_2">It's more like a family business. Operates as a fair and honest concern.</system:String>
+    <system:String x:Key="nomad_philosophy_3">Will occasionally slip and do unethical things, but it's rare.</system:String>
+    <system:String x:Key="nomad_philosophy_4">Willing to bend the rules whenever they get in the way to get what the Pack needs.</system:String>
+    <system:String x:Key="nomad_philosophy_5">Ruthless and self-centered, willing to do some bad things if it will get the Pack ahead.</system:String>
+    <system:String x:Key="nomad_philosophy_6">Totally evil. You rage up and down the highways, killing, looting, and just terrorizing everyone.</system:String>
+
 </ResourceDictionary>
