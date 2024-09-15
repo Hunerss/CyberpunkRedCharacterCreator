@@ -1,5 +1,8 @@
-﻿using CyberpunkRedCharacterCreator.UserControls;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -10,18 +13,18 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace CyberpunkRedCharacterCreator
+namespace CyberpunkRedCharacterCreator.UserControls
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Logika interakcji dla klasy MainMenu.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainMenu : UserControl
     {
-
-        public MainWindow()
+        private MainWindow window;
+        public MainMenu(MainWindow window)
         {
             InitializeComponent();
-            frame.NavigationService.Navigate(new MainMenu(this));
+            this.window = window;
         }
     }
 }
