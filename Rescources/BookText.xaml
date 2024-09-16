@@ -15,7 +15,7 @@
     <system:String x:Key="menuItem_header_ability">Ability</system:String>
 
     <system:String x:Key="menu_text_relationship_status_1">You're a loner.</system:String>
-    <system:String x:Key="menu_text_relationship_status_1">That contats are not pernament.</system:String>
+    <system:String x:Key="menu_text_relationship_status_2">That contats are not pernament.</system:String>
 
 
     <!--Classes names-->
