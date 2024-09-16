@@ -20,9 +20,15 @@ namespace CyberpunkRedCharacterCreator.UserControls
     /// </summary>
     public partial class Calculated_CharacterCreation : UserControl
     {
-        public Calculated_CharacterCreation()
+        MainWindow window;
+        string choosenClass;
+        string creationType;
+        public Calculated_CharacterCreation(MainWindow window, string choosenClass, string creationType)
         {
             InitializeComponent();
+            this.window = window;
+            this.choosenClass = choosenClass;
+            this.creationType = creationType;
         }
     }
 }

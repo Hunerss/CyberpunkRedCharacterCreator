@@ -16,19 +16,22 @@ using System.Windows.Shapes;
 namespace CyberpunkRedCharacterCreator.UserControls
 {
     /// <summary>
-    /// Logika interakcji dla klasy Templates_CharacterCreation.xaml
+    /// Logika interakcji dla klasy ClassSelection_CharacterCreation.xaml
     /// </summary>
-    public partial class Templates_CharacterCreation : UserControl
+    public partial class ClassSelection_CharacterCreation : UserControl
     {
         MainWindow window;
-        string choosenClass;
         string creationType;
-        public Templates_CharacterCreation(MainWindow window, string choosenClass, string creationType)
+        public ClassSelection_CharacterCreation(MainWindow window, string creationType)
         {
             InitializeComponent();
             this.window = window;
-            this.choosenClass = choosenClass;
             this.creationType = creationType;
+        }
+
+        private void menuItem_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

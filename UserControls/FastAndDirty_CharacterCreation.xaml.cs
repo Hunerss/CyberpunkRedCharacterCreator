@@ -20,9 +20,15 @@ namespace CyberpunkRedCharacterCreator.UserControls
     /// </summary>
     public partial class FastAndDirty_CharacterCreation : UserControl
     {
-        public FastAndDirty_CharacterCreation()
+        MainWindow window;
+        string choosenClass;
+        string creationType;
+        public FastAndDirty_CharacterCreation(MainWindow window, string choosenClass, string creationType)
         {
             InitializeComponent();
+            this.window = window;
+            this.choosenClass = choosenClass;
+            this.creationType = creationType;
         }
     }
 }

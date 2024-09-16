@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="CyberpunkRedCharacterCreator.UserControls.ClassSelection_CharacterCreation"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CyberpunkRedCharacterCreator.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Menu>
+            <MenuItem Name="exec_menuItem" Header="{DynamicResource class_name_exec}" Click="menuItem_Click"/>
+            <MenuItem Name="fixer_menuItem" Header="{DynamicResource class_name_fixer}" Click="menuItem_Click"/>
+            <MenuItem Name="lawman_menuItem" Header="{DynamicResource class_name_lawman}" Click="menuItem_Click"/>
+            <MenuItem Name="media_menuItem" Header="{DynamicResource class_name_media}" Click="menuItem_Click"/>
+            <MenuItem Name="medtech_menuItem" Header="{DynamicResource class_name_medtech}" Click="menuItem_Click"/>
+            <MenuItem Name="netrunner_menuItem" Header="{DynamicResource class_name_netrunner}" Click="menuItem_Click"/>
+            <MenuItem Name="nomad_menuItem" Header="{DynamicResource class_name_nomad}" Click="menuItem_Click"/>
+            <MenuItem Name="rockerboy_menuItem" Header="{DynamicResource class_name_rockerboy}" Click="menuItem_Click"/>
+            <MenuItem Name="solo_menuItem" Header="{DynamicResource class_name_solo}" Click="menuItem_Click"/>
+            <MenuItem Name="tech_menuItem" Header="{DynamicResource class_name_tech}" Click="menuItem_Click"/>
+        </Menu>
+    </Grid>
+</UserControl>
