@@ -26,5 +26,22 @@ namespace CyberpunkRedCharacterCreator.UserControls
             InitializeComponent();
             this.window = window;
         }
+
+        private void Navigate_Click(object sender, RoutedEventArgs e)
+        {
+            string btn_name = ((Button)sender).Name;
+            if (btn_name == "character_creation_description_calculated")
+            {
+                window.frame.NavigationService.Navigate(new );
+            } else if (btn_name == "character_creation_description_calculated")
+            {
+
+            } else if (btn_name == "calculated_button")
+            {
+
+            } else {
+                Console.WriteLine("Error button overflow");
+            }
+        }
     }
 }
