@@ -30,8 +30,7 @@ namespace CyberpunkRedCharacterCreator.UserControls
             class_image.Visibility = Visibility.Visible;
             string description_key = "class_description_" + selectedClass;
             class_description.Text = Application.Current.Resources[description_key] as string;
-            class_description_container.Visibility = Visibility.Hidden;
-            button_container.Visibility = Visibility.Hidden;
+            description_container.Visibility = Visibility.Collapsed;
             Console.WriteLine(selectedClass);
         }
         private void SetClass(string className)
@@ -42,9 +41,8 @@ namespace CyberpunkRedCharacterCreator.UserControls
             class_image.Visibility = Visibility.Visible;
             string description_key = "class_description_" + selectedClass;
             class_description.Text = Application.Current.Resources[description_key] as string;
-            class_description_container.Visibility = Visibility.Hidden;
+            description_container.Visibility = Visibility.Collapsed;
             select.Visibility = Visibility.Visible;
-            button_container.Visibility = Visibility.Hidden;
             Console.WriteLine(selectedClass);
         }
 
@@ -74,10 +72,9 @@ namespace CyberpunkRedCharacterCreator.UserControls
 
         private void Select_Click(object sender, RoutedEventArgs e)
         {
-            select.Visibility = Visibility.Hidden;
-            button_container.Visibility = Visibility.Visible;
-            class_image.Visibility = Visibility.Hidden;
-            class_description_container.Visibility = Visibility.Visible;
+            select.Visibility = Visibility.Collapsed;
+            class_image.Visibility = Visibility.Collapsed;
+            description_container.Visibility = Visibility.Visible;
         }
 
         private void Option_Click(object sender, RoutedEventArgs e)
@@ -87,9 +84,8 @@ namespace CyberpunkRedCharacterCreator.UserControls
             {
                 case "cancel":
                     select.Visibility = Visibility.Visible;
-                    button_container.Visibility = Visibility.Hidden;
                     class_image.Visibility = Visibility.Visible;
-                    class_description_container.Visibility = Visibility.Hidden;
+                    description_container.Visibility = Visibility.Collapsed;
                     break;
                 default:
                     switch (creationType)

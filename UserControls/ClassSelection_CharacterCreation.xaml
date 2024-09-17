@@ -34,11 +34,11 @@
                     <Image Name="class_image" Stretch="Fill" Height="360" Visibility="Visible"/>
                     <Button Name="select" Content="Select" Padding="10" Click="Select_Click" VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
                 </Grid>
-                <StackPanel Visibility="Hidden">
-                    <ScrollViewer Name="class_description_container" Width="350" Height="340" Visibility="Hidden">
+                <StackPanel Name="description_container" Visibility="Hidden">
+                    <ScrollViewer Width="350" Height="300">
                         <TextBlock Name="class_description" Text="{DynamicResource class_description_exec}" TextWrapping="Wrap"  FontSize="14"/>
                     </ScrollViewer>
-                    <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Center" Visibility="Hidden">
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0 15 0 10">
                         <Button Name="confirm" Content="Confirm" Padding="10" Click="Option_Click" Margin="0 0 10 0"/>
                         <Button Name="cancel" Content="Cancel" Padding="10" Click="Option_Click"/>
                     </StackPanel>
