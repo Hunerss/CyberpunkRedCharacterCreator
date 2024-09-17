@@ -30,20 +30,7 @@ namespace CyberpunkRedCharacterCreator.UserControls
         private void Navigate_Click(object sender, RoutedEventArgs e)
         {
             string btn_name = ((Button)sender).Name;
-            if (btn_name == "templates_button")
-            {
-                //window.frame.NavigationService.Navigate(new ClassSelection_CharacterCreation(window, btn_name[11.]));
-            } else if (btn_name == "fast_and_dirty_button")
-            {
-                //window.frame.NavigationService.Navigate(new ClassSelection_CharacterCreation(window, btn_name[11.]));
-            }
-            else if (btn_name == "calculated_button")
-            {
-                //window.frame.NavigationService.Navigate(new ClassSelection_CharacterCreation(window, btn_name[11.]));
-            }
-            else {
-                Console.WriteLine("Error button overflow");
-            }
+            window.frame.NavigationService.Navigate(new ClassSelection_CharacterCreation(window, btn_name[..^7]));
         }
     }
 }
