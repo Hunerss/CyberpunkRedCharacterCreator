@@ -9,10 +9,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\placeholder.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Page Remove="Rescources\BookText.xaml" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Images\placeholder.png" />
     <Resource Include="Rescources\BookText.xaml" />
   </ItemGroup>
 

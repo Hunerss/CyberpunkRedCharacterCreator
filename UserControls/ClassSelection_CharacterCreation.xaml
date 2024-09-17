@@ -6,18 +6,44 @@
              xmlns:local="clr-namespace:CyberpunkRedCharacterCreator.UserControls"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-        <Menu>
-            <MenuItem Name="exec_menuItem" Header="{DynamicResource class_name_exec}" Click="menuItem_Click"/>
-            <MenuItem Name="fixer_menuItem" Header="{DynamicResource class_name_fixer}" Click="menuItem_Click"/>
-            <MenuItem Name="lawman_menuItem" Header="{DynamicResource class_name_lawman}" Click="menuItem_Click"/>
-            <MenuItem Name="media_menuItem" Header="{DynamicResource class_name_media}" Click="menuItem_Click"/>
-            <MenuItem Name="medtech_menuItem" Header="{DynamicResource class_name_medtech}" Click="menuItem_Click"/>
-            <MenuItem Name="netrunner_menuItem" Header="{DynamicResource class_name_netrunner}" Click="menuItem_Click"/>
-            <MenuItem Name="nomad_menuItem" Header="{DynamicResource class_name_nomad}" Click="menuItem_Click"/>
-            <MenuItem Name="rockerboy_menuItem" Header="{DynamicResource class_name_rockerboy}" Click="menuItem_Click"/>
-            <MenuItem Name="solo_menuItem" Header="{DynamicResource class_name_solo}" Click="menuItem_Click"/>
-            <MenuItem Name="tech_menuItem" Header="{DynamicResource class_name_tech}" Click="menuItem_Click"/>
+    <Grid Background="AliceBlue">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="10*"/>
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="0">
+            <MenuItem Name="exec_menuItem" Header="{DynamicResource class_name_exec}" Click="MenuItem_Click"/>
+            <MenuItem Name="fixer_menuItem" Header="{DynamicResource class_name_fixer}" Click="MenuItem_Click"/>
+            <MenuItem Name="lawman_menuItem" Header="{DynamicResource class_name_lawman}" Click="MenuItem_Click"/>
+            <MenuItem Name="media_menuItem" Header="{DynamicResource class_name_media}" Click="MenuItem_Click"/>
+            <MenuItem Name="medtech_menuItem" Header="{DynamicResource class_name_medtech}" Click="MenuItem_Click"/>
+            <MenuItem Name="netrunner_menuItem" Header="{DynamicResource class_name_netrunner}" Click="MenuItem_Click"/>
+            <MenuItem Name="nomad_menuItem" Header="{DynamicResource class_name_nomad}" Click="MenuItem_Click"/>
+            <MenuItem Name="rockerboy_menuItem" Header="{DynamicResource class_name_rockerboy}" Click="MenuItem_Click"/>
+            <MenuItem Name="solo_menuItem" Header="{DynamicResource class_name_solo}" Click="MenuItem_Click"/>
+            <MenuItem Name="tech_menuItem" Header="{DynamicResource class_name_tech}" Click="MenuItem_Click"/>
         </Menu>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="6*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="1" Margin="0 20 0 0">
+                <Grid Name="image_container">
+                    <Image Name="class_image" Stretch="Fill" Height="360" Visibility="Visible"/>
+                    <Button Name="select" Content="Select" Padding="10" Click="Select_Click" VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
+                </Grid>
+                <StackPanel Visibility="Hidden">
+                    <ScrollViewer Name="class_description_container" Width="350" Height="340" Visibility="Hidden">
+                        <TextBlock Name="class_description" Text="{DynamicResource class_description_exec}" TextWrapping="Wrap"  FontSize="14"/>
+                    </ScrollViewer>
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Center" Visibility="Hidden">
+                        <Button Name="confirm" Content="Confirm" Padding="10" Click="Option_Click" Margin="0 0 10 0"/>
+                        <Button Name="cancel" Content="Cancel" Padding="10" Click="Option_Click"/>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
     </Grid>
 </UserControl>
