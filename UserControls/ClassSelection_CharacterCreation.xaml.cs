@@ -25,7 +25,6 @@ namespace CyberpunkRedCharacterCreator.UserControls
         private void SetClass(int selected)
         {
             selectedClass = ReturnClassName(selected);
-            Console.WriteLine(selectedClass);
             class_image.Source = new BitmapImage(new Uri(@"..\Images\character_image_" + selectedClass + ".png", UriKind.Relative));
             //class_image.Source = new BitmapImage(new Uri(@"..\Images\placeholder.png", UriKind.Relative));
             class_image.Visibility = Visibility.Visible;
