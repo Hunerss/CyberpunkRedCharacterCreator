@@ -31,7 +31,7 @@
             </Grid.ColumnDefinitions>
             <StackPanel Grid.Column="1" Margin="0 20 0 0">
                 <Grid Name="image_container">
-                    <Image Name="class_image" Stretch="Fill" Height="360" Visibility="Visible"/>
+                    <Image Name="class_image" Stretch="Fill" Height="370" Width="170" Visibility="Visible"/>
                     <Button Name="select" Content="Select" Padding="10" Click="Select_Click" VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
                 </Grid>
                 <StackPanel Name="description_container" Visibility="Hidden">
