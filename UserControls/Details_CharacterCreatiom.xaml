@@ -7,6 +7,69 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-            
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="10*"/>
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="0">
+            <MenuItem Name="lifepath_menuItem" Header="{DynamicResource menuItem_header_lifepath}" Click="MenuItem_Click"/>
+            <MenuItem Name="relationship_menuItem" Header="{DynamicResource menuItem_header_relationship}" Click="MenuItem_Click"/>
+            <MenuItem Name="stats_menuItem" Header="{DynamicResource menuItem_header_stats}" Click="MenuItem_Click"/>
+            <MenuItem Name="skills_menuItem" Header="{DynamicResource menuItem_header_skills}" Click="MenuItem_Click"/>
+            <!--<MenuItem Name="inventory_menuItem" Header="{DynamicResource inventory}" Click="MenuItem_Click"/>-->
+            <!--<MenuItem Name="ability_menuItem" Header="{DynamicResource ability}" Click="MenuItem_Click"/>-->
+        </Menu>
+        <Grid Grid.Row="1">
+            <Grid Name="lifepath_container">
+                <StackPanel>
+                    <!--Main inputs-->
+                </StackPanel>
+                <StackPanel Name="lifepath_exec">
+                    
+                </StackPanel>
+                <StackPanel Name="lifepath_fixer">
+                    
+                </StackPanel>
+                <StackPanel Name="lifepath_lawman">
+                    
+                </StackPanel>
+                <StackPanel Name="lifepath_media">
+                    
+                </StackPanel>
+                <StackPanel Name="lifepath_medtech">
+                    
+                </StackPanel>
+                <StackPanel Name="lifepath_netrunner">
+                    
+                </StackPanel>
+                <StackPanel Name="lifepath_nomad">
+                    
+                </StackPanel>
+                <StackPanel Name="lifepath_rockerboy">
+                    
+                </StackPanel>
+                <StackPanel Name="lifepath_solo">
+                    
+                </StackPanel>
+                <StackPanel Name="lifepath_tech">
+                    
+                </StackPanel>
+            </Grid>
+            <Grid Name="relationship_container">
+                
+            </Grid>
+            <Grid Name="stats_container">
+                
+            </Grid>
+            <Grid Name="skills_container">
+                
+            </Grid>
+            <Grid Name="inventory_container">
+                
+            </Grid>
+            <Grid Name="ability_container">
+                
+            </Grid>
+        </Grid>
     </Grid>
 </UserControl>
