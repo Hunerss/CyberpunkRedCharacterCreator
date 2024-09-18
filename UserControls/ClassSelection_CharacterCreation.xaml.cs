@@ -25,8 +25,9 @@ namespace CyberpunkRedCharacterCreator.UserControls
         private void SetClass(int selected)
         {
             selectedClass = ReturnClassName(selected);
-            //class_image.Source = new BitmapImage(new Uri(@"..\Images\character_image_" + className + ".png"));
-            class_image.Source = new BitmapImage(new Uri(@"..\Images\placeholder.png", UriKind.Relative));
+            Console.WriteLine(selectedClass);
+            class_image.Source = new BitmapImage(new Uri(@"..\Images\character_image_" + selectedClass + ".png", UriKind.Relative));
+            //class_image.Source = new BitmapImage(new Uri(@"..\Images\placeholder.png", UriKind.Relative));
             class_image.Visibility = Visibility.Visible;
             string description_key = "class_description_" + selectedClass;
             class_description.Text = Application.Current.Resources[description_key] as string;
@@ -36,8 +37,8 @@ namespace CyberpunkRedCharacterCreator.UserControls
         private void SetClass(string className)
         {
             selectedClass = className;
-            //class_image.Source = new BitmapImage(new Uri(@"..\Images\character_image_" + className + ".png"));
-            class_image.Source = new BitmapImage(new Uri(@"..\Images\placeholder.png", UriKind.Relative));
+            class_image.Source = new BitmapImage(new Uri(@"..\Images\character_image_" + selectedClass + ".png", UriKind.Relative));
+            //class_image.Source = new BitmapImage(new Uri(@"..\Images\placeholder.png", UriKind.Relative));
             class_image.Visibility = Visibility.Visible;
             string description_key = "class_description_" + selectedClass;
             class_description.Text = Application.Current.Resources[description_key] as string;

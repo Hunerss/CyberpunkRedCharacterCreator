@@ -9,6 +9,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\character_image_exec.png" />
+    <None Remove="Images\character_image_fixer.png" />
+    <None Remove="Images\character_image_lawman.png" />
+    <None Remove="Images\character_image_media.png" />
+    <None Remove="Images\character_image_medtech.png" />
+    <None Remove="Images\character_image_netrunner.png" />
+    <None Remove="Images\character_image_nomad.png" />
+    <None Remove="Images\character_image_rockerboy.png" />
+    <None Remove="Images\character_image_solo.png" />
+    <None Remove="Images\character_image_tech.png" />
     <None Remove="Images\placeholder.png" />
   </ItemGroup>
 
@@ -17,6 +27,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Images\character_image_exec.png" />
+    <Resource Include="Images\character_image_lawman.png" />
+    <Resource Include="Images\character_image_medtech.png" />
+    <Resource Include="Images\character_image_netrunner.png" />
+    <Resource Include="Images\character_image_nomad.png" />
+    <Resource Include="Images\character_image_solo.png" />
+    <Resource Include="Images\character_image_tech.png" />
     <Resource Include="Images\placeholder.png" />
     <Resource Include="Rescources\BookText.xaml" />
   </ItemGroup>
