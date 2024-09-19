@@ -87,22 +87,11 @@ namespace CyberpunkRedCharacterCreator.UserControls
                     class_image.Visibility = Visibility.Visible;
                     description_container.Visibility = Visibility.Collapsed;
                     break;
+                case "confirm":
+                    window.frame.NavigationService.Navigate(new Details_CharacterCreatiom(window, selectedClass, creationType));
+                    break;
                 default:
-                    switch (creationType)
-                    {
-                        case "calculated":
-                            window.frame.NavigationService.Navigate(new Calculated_CharacterCreation(window, selectedClass, creationType));
-                            break;
-                        case "fast_and_dirty":
-                            window.frame.NavigationService.Navigate(new FastAndDirty_CharacterCreation(window, selectedClass, creationType));
-                            break;
-                        case "templates":
-                            window.frame.NavigationService.Navigate(new Templates_CharacterCreation(window, selectedClass, creationType));
-                            break;
-                        default:
-                            Console.WriteLine("Error");
-                            break;
-                    }
+                    Console.WriteLine("Error");
                     break;
             }
         }

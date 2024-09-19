@@ -17,7 +17,7 @@
         </Grid.RowDefinitions>
         <TextBlock Text="Choose cretion option" Name="choose" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="32"/>
         <Button Name="templates_button" Grid.Row="2" Content="{DynamicResource character_creation_header_templates}" Click="Navigate_Click" VerticalAlignment="Center" HorizontalAlignment="Center" Padding="10" Width="250" Height="50" FontSize="16" ToolTip="{DynamicResource character_creation_description_templates}"/>
-        <Button Name="fast_and_dirty_button" Grid.Row="3" Content="{DynamicResource character_creation_header_fast_and_dirty}" Click="Navigate_Click" VerticalAlignment="Center" HorizontalAlignment="Center" Padding="10" Width="250" Height="50" FontSize="16" ToolTip="{DynamicResource character_creation_description_fast_and_dirty}"/>
+        <!--<Button Name="fast_and_dirty_button" Grid.Row="3" Content="{DynamicResource character_creation_header_fast_and_dirty}" Click="Navigate_Click" VerticalAlignment="Center" HorizontalAlignment="Center" Padding="10" Width="250" Height="50" FontSize="16" ToolTip="{DynamicResource character_creation_description_fast_and_dirty}"/>-->
         <Button Name="calculated_button" Grid.Row="4" Content="{DynamicResource character_creation_header_calculated}" Click="Navigate_Click" VerticalAlignment="Center" HorizontalAlignment="Center" Padding="10" Width="250" Height="50" FontSize="16" ToolTip="{DynamicResource character_creation_description_calculated}"/>
     </Grid>
 </UserControl>

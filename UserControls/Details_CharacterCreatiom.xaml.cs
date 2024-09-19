@@ -20,9 +20,47 @@ namespace CyberpunkRedCharacterCreator.UserControls
     /// </summary>
     public partial class Details_CharacterCreatiom : UserControl
     {
-        public Details_CharacterCreatiom()
+        MainWindow window;
+        string choosenClass;
+        string creationType;
+
+        public Details_CharacterCreatiom(MainWindow window, string choosenClass, string creationType)
         {
             InitializeComponent();
+            this.window = window;
+            this.choosenClass = choosenClass;
+            this.creationType = creationType;
+        }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            //string buttonName = ((MenuItem)sender).Name;
+            //SetClass(buttonName[..^9]);
+        }
+
+        private void combobox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void combobox_DropDownClosed(object sender, EventArgs e)
+        {
+
+        }
+
+        private void add_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void remove_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void DataGrid_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+
         }
     }
 }
