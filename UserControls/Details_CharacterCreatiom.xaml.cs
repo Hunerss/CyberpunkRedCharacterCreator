@@ -10,6 +10,7 @@ namespace CyberpunkRedCharacterCreator.UserControls
     public partial class Details_CharacterCreatiom : UserControl
     {
         MainWindow window;
+        Random rnd = new();
         string choosenClass;
         string creationType;
 
@@ -24,138 +25,60 @@ namespace CyberpunkRedCharacterCreator.UserControls
         private void MenuItem_Click(object sender, RoutedEventArgs e)
         {
             string menuName = ((MenuItem)sender).Name;
-            //inventory_menuItem
-            switch (menuName.Substring(0,menuName.Length-9))
+            lifepath_container.Visibility = Visibility.Collapsed;
+            stats_container.Visibility = Visibility.Collapsed;
+            skills_container.Visibility = Visibility.Collapsed;
+            inventory_container.Visibility = Visibility.Collapsed;
+            fashion_container.Visibility = Visibility.Collapsed;
+            ability_container.Visibility = Visibility.Collapsed;
+
+            switch (menuName.Substring(0, menuName.Length - 9))
             {
                 case "lifepath":
                     lifepath_container.Visibility = Visibility.Visible;
-                    stats_container.Visibility = Visibility.Collapsed;
-                    skills_container.Visibility = Visibility.Collapsed;
-                    inventory_container.Visibility = Visibility.Collapsed;
-                    fashion_container.Visibility = Visibility.Collapsed;
-                    ability_container.Visibility = Visibility.Collapsed;
-
                     lifepath_general.Visibility = Visibility.Visible;
+
+                    lifepath_exec.Visibility = Visibility.Collapsed;
+                    lifepath_fixer.Visibility = Visibility.Collapsed;
+                    lifepath_lawman.Visibility = Visibility.Collapsed;
+                    lifepath_media.Visibility = Visibility.Collapsed;
+                    lifepath_medtech.Visibility = Visibility.Collapsed;
+                    lifepath_netrunner.Visibility = Visibility.Collapsed;
+                    lifepath_nomad.Visibility = Visibility.Collapsed;
+                    lifepath_rockerboy.Visibility = Visibility.Collapsed;
+                    lifepath_solo.Visibility = Visibility.Collapsed;
+                    lifepath_tech.Visibility = Visibility.Collapsed;
+
                     switch (choosenClass)
                     {
                         case "exec":
                             lifepath_exec.Visibility = Visibility.Visible;
-                            lifepath_fixer.Visibility = Visibility.Collapsed;
-                            lifepath_lawman.Visibility = Visibility.Collapsed;
-                            lifepath_media.Visibility = Visibility.Collapsed;
-                            lifepath_medtech.Visibility = Visibility.Collapsed;
-                            lifepath_netrunner.Visibility = Visibility.Collapsed;
-                            lifepath_nomad.Visibility = Visibility.Collapsed;
-                            lifepath_rockerboy.Visibility = Visibility.Collapsed;
-                            lifepath_solo.Visibility = Visibility.Collapsed;
-                            lifepath_tech.Visibility = Visibility.Collapsed;
                             break;
                         case "fixer":
-                            lifepath_exec.Visibility = Visibility.Collapsed;
                             lifepath_fixer.Visibility = Visibility.Visible;
-                            lifepath_lawman.Visibility = Visibility.Collapsed;
-                            lifepath_media.Visibility = Visibility.Collapsed;
-                            lifepath_medtech.Visibility = Visibility.Collapsed;
-                            lifepath_netrunner.Visibility = Visibility.Collapsed;
-                            lifepath_nomad.Visibility = Visibility.Collapsed;
-                            lifepath_rockerboy.Visibility = Visibility.Collapsed;
-                            lifepath_solo.Visibility = Visibility.Collapsed;
-                            lifepath_tech.Visibility = Visibility.Collapsed;
                             break;
                         case "lawman":
-                            lifepath_exec.Visibility = Visibility.Collapsed;
-                            lifepath_fixer.Visibility = Visibility.Collapsed;
                             lifepath_lawman.Visibility = Visibility.Visible;
-                            lifepath_media.Visibility = Visibility.Collapsed;
-                            lifepath_medtech.Visibility = Visibility.Collapsed;
-                            lifepath_netrunner.Visibility = Visibility.Collapsed;
-                            lifepath_nomad.Visibility = Visibility.Collapsed;
-                            lifepath_rockerboy.Visibility = Visibility.Collapsed;
-                            lifepath_solo.Visibility = Visibility.Collapsed;
-                            lifepath_tech.Visibility = Visibility.Collapsed;
                             break;
                         case "media":
-                            lifepath_exec.Visibility = Visibility.Collapsed;
-                            lifepath_fixer.Visibility = Visibility.Collapsed;
-                            lifepath_lawman.Visibility = Visibility.Collapsed;
                             lifepath_media.Visibility = Visibility.Visible;
-                            lifepath_medtech.Visibility = Visibility.Collapsed;
-                            lifepath_netrunner.Visibility = Visibility.Collapsed;
-                            lifepath_nomad.Visibility = Visibility.Collapsed;
-                            lifepath_rockerboy.Visibility = Visibility.Collapsed;
-                            lifepath_solo.Visibility = Visibility.Collapsed;
-                            lifepath_tech.Visibility = Visibility.Collapsed;
                             break;
                         case "medtech":
-                            lifepath_exec.Visibility = Visibility.Collapsed;
-                            lifepath_fixer.Visibility = Visibility.Collapsed;
-                            lifepath_lawman.Visibility = Visibility.Collapsed;
-                            lifepath_media.Visibility = Visibility.Collapsed;
                             lifepath_medtech.Visibility = Visibility.Visible;
-                            lifepath_netrunner.Visibility = Visibility.Collapsed;
-                            lifepath_nomad.Visibility = Visibility.Collapsed;
-                            lifepath_rockerboy.Visibility = Visibility.Collapsed;
-                            lifepath_solo.Visibility = Visibility.Collapsed;
-                            lifepath_tech.Visibility = Visibility.Collapsed;
                             break;
                         case "netrunner":
-                            lifepath_exec.Visibility = Visibility.Collapsed;
-                            lifepath_fixer.Visibility = Visibility.Collapsed;
-                            lifepath_lawman.Visibility = Visibility.Collapsed;
-                            lifepath_media.Visibility = Visibility.Collapsed;
-                            lifepath_medtech.Visibility = Visibility.Collapsed;
                             lifepath_netrunner.Visibility = Visibility.Visible;
-                            lifepath_nomad.Visibility = Visibility.Collapsed;
-                            lifepath_rockerboy.Visibility = Visibility.Collapsed;
-                            lifepath_solo.Visibility = Visibility.Collapsed;
-                            lifepath_tech.Visibility = Visibility.Collapsed;
                             break;
                         case "nomad":
-                            lifepath_exec.Visibility = Visibility.Collapsed;
-                            lifepath_fixer.Visibility = Visibility.Collapsed;
-                            lifepath_lawman.Visibility = Visibility.Collapsed;
-                            lifepath_media.Visibility = Visibility.Collapsed;
-                            lifepath_medtech.Visibility = Visibility.Collapsed;
-                            lifepath_netrunner.Visibility = Visibility.Collapsed;
                             lifepath_nomad.Visibility = Visibility.Visible;
-                            lifepath_rockerboy.Visibility = Visibility.Collapsed;
-                            lifepath_solo.Visibility = Visibility.Collapsed;
-                            lifepath_tech.Visibility = Visibility.Collapsed;
                             break;
                         case "rokcerboy":
-                            lifepath_exec.Visibility = Visibility.Collapsed;
-                            lifepath_fixer.Visibility = Visibility.Collapsed;
-                            lifepath_lawman.Visibility = Visibility.Collapsed;
-                            lifepath_media.Visibility = Visibility.Collapsed;
-                            lifepath_medtech.Visibility = Visibility.Collapsed;
-                            lifepath_netrunner.Visibility = Visibility.Collapsed;
-                            lifepath_nomad.Visibility = Visibility.Collapsed;
                             lifepath_rockerboy.Visibility = Visibility.Visible;
-                            lifepath_solo.Visibility = Visibility.Collapsed;
-                            lifepath_tech.Visibility = Visibility.Collapsed;
                             break;
                         case "solo":
-                            lifepath_exec.Visibility = Visibility.Collapsed;
-                            lifepath_fixer.Visibility = Visibility.Collapsed;
-                            lifepath_lawman.Visibility = Visibility.Collapsed;
-                            lifepath_media.Visibility = Visibility.Collapsed;
-                            lifepath_medtech.Visibility = Visibility.Collapsed;
-                            lifepath_netrunner.Visibility = Visibility.Collapsed;
-                            lifepath_nomad.Visibility = Visibility.Collapsed;
-                            lifepath_rockerboy.Visibility = Visibility.Collapsed;
                             lifepath_solo.Visibility = Visibility.Visible;
-                            lifepath_tech.Visibility = Visibility.Collapsed;
                             break;
                         case "tech":
-                            lifepath_exec.Visibility = Visibility.Collapsed;
-                            lifepath_fixer.Visibility = Visibility.Collapsed;
-                            lifepath_lawman.Visibility = Visibility.Collapsed;
-                            lifepath_media.Visibility = Visibility.Collapsed;
-                            lifepath_medtech.Visibility = Visibility.Collapsed;
-                            lifepath_netrunner.Visibility = Visibility.Collapsed;
-                            lifepath_nomad.Visibility = Visibility.Collapsed;
-                            lifepath_rockerboy.Visibility = Visibility.Collapsed;
-                            lifepath_solo.Visibility = Visibility.Collapsed;
                             lifepath_tech.Visibility = Visibility.Visible;
                             break;
                         default:
@@ -164,43 +87,18 @@ namespace CyberpunkRedCharacterCreator.UserControls
                     }
                     break;
                 case "stats":
-                    lifepath_container.Visibility = Visibility.Collapsed;
                     stats_container.Visibility = Visibility.Visible;
-                    skills_container.Visibility = Visibility.Collapsed;
-                    inventory_container.Visibility = Visibility.Collapsed;
-                    fashion_container.Visibility = Visibility.Collapsed;
-                    ability_container.Visibility = Visibility.Collapsed;
                     break;
                 case "skills":
-                    lifepath_container.Visibility = Visibility.Collapsed;
-                    stats_container.Visibility = Visibility.Collapsed;
                     skills_container.Visibility = Visibility.Visible;
-                    inventory_container.Visibility = Visibility.Collapsed;
-                    fashion_container.Visibility = Visibility.Collapsed;
-                    ability_container.Visibility = Visibility.Collapsed;
                     break;
                 case "inventory":
-                    lifepath_container.Visibility = Visibility.Collapsed;
-                    stats_container.Visibility = Visibility.Collapsed;
-                    skills_container.Visibility = Visibility.Collapsed;
                     inventory_container.Visibility = Visibility.Visible;
-                    fashion_container.Visibility = Visibility.Collapsed;
-                    ability_container.Visibility = Visibility.Collapsed;
                     break;
                 case "fashion":
-                    lifepath_container.Visibility = Visibility.Collapsed;
-                    stats_container.Visibility = Visibility.Collapsed;
-                    skills_container.Visibility = Visibility.Collapsed;
-                    inventory_container.Visibility = Visibility.Collapsed;
                     fashion_container.Visibility = Visibility.Visible;
-                    ability_container.Visibility = Visibility.Collapsed;
                     break;
                 case "ability":
-                    lifepath_container.Visibility = Visibility.Collapsed;
-                    stats_container.Visibility = Visibility.Collapsed;
-                    skills_container.Visibility = Visibility.Collapsed;
-                    inventory_container.Visibility = Visibility.Collapsed;
-                    fashion_container.Visibility = Visibility.Collapsed;
                     ability_container.Visibility = Visibility.Visible;
                     break;
                 default:
@@ -211,22 +109,154 @@ namespace CyberpunkRedCharacterCreator.UserControls
 
         private void combobox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            //ComboBox comboBox = sender as ComboBox;
 
+            //if (comboBox != null && comboBox.SelectedItem is ComboBoxItem selectedItem)
+            //{
+            //    DockPanel parentPanel = comboBox.Parent as DockPanel;
+
+            //    if (parentPanel != null)
+            //    {
+            //        TextBox associatedTextBox = parentPanel.Children.OfType<TextBox>().FirstOrDefault();
+
+            //        if (associatedTextBox != null)
+            //        {
+            //            if (selectedItem.Name.Contains("rnd"))
+            //            {
+            //                var items = comboBox.Items.OfType<ComboBoxItem>().ToList();
+
+            //                ComboBoxItem randomItem;
+
+            //                do
+            //                {
+            //                    randomItem = items[rnd.Next(items.Count)];
+            //                }
+            //                while (randomItem.Name.Contains("rnd"));
+            //                associatedTextBox.Text = randomItem.Content.ToString();
+            //            }
+            //            else
+            //            {
+            //                associatedTextBox.Text = selectedItem.Content.ToString();
+            //            }
+            //        }
+            //    }
+            //}
         }
 
         private void combobox_DropDownClosed(object sender, EventArgs e)
         {
+            ComboBox comboBox = sender as ComboBox;
 
+            if (comboBox != null && comboBox.SelectedItem is ComboBoxItem selectedItem)
+            {
+                DockPanel parentPanel = comboBox.Parent as DockPanel;
+
+                if (parentPanel != null)
+                {
+                    TextBox associatedTextBox = parentPanel.Children.OfType<TextBox>().FirstOrDefault();
+
+                    if (associatedTextBox != null)
+                    {
+                        if (selectedItem.Name.Contains("rnd"))
+                        {
+                            var items = comboBox.Items.OfType<ComboBoxItem>().ToList();
+
+                            ComboBoxItem randomItem;
+
+                            do
+                            {
+                                randomItem = items[rnd.Next(items.Count)];
+                            }
+                            while (randomItem.Name.Contains("rnd"));
+                            associatedTextBox.Text = randomItem.Content.ToString();
+                        }
+                        else
+                        {
+                            associatedTextBox.Text = selectedItem.Content.ToString();
+                        }
+                    }
+                }
+            }
         }
 
         private void add_Click(object sender, RoutedEventArgs e)
         {
+            Button addButton = sender as Button;
 
+            if (addButton != null)
+            {
+                string buttonName = addButton.Name;
+                DockPanel parentPanel = addButton.Parent as DockPanel;
+
+                if (parentPanel != null)
+                {
+                    TextBox valueTextBox = parentPanel.Children.OfType<TextBox>().FirstOrDefault();
+
+                    if (valueTextBox != null)
+                    {
+                        int currentValue = int.Parse(valueTextBox.Text);
+                        currentValue++;
+                        valueTextBox.Text = currentValue.ToString();
+                    }
+                }
+            }
         }
 
         private void remove_Click(object sender, RoutedEventArgs e)
         {
+            Button removeButton = sender as Button;
 
+            if (removeButton != null)
+            {
+                DockPanel parentPanel = removeButton.Parent as DockPanel;
+
+                if (parentPanel != null)
+                {
+                    TextBox valueTextBox = parentPanel.Children.OfType<TextBox>().FirstOrDefault();
+
+                    if (valueTextBox != null)
+                    {
+                        int currentValue = int.Parse(valueTextBox.Text);
+                        if (currentValue > 0)
+                        {
+                            currentValue--;
+                            valueTextBox.Text = currentValue.ToString();
+                        }
+                    }
+                }
+            }
+        }
+
+        private void ChangeAviability(string word, UIElement rootElement, bool blockAdd)
+        {
+            foreach (var child in LogicalTreeHelper.GetChildren(rootElement))
+            {
+                if (child is DockPanel dockPanel)
+                {
+                    foreach (var dockChild in LogicalTreeHelper.GetChildren(dockPanel))
+                    {
+                        if (dockChild is Button button)
+                        {
+                            if (blockAdd && button.Name.Contains(word + "_add"))
+                            {
+                                button.IsEnabled = false;
+                            }
+                            else if (blockAdd && button.Name.Contains(word + "_remove"))
+                            {
+                                button.IsEnabled = true;
+                            }
+                            else if (!blockAdd && button.Name.Contains(word + "_remove"))
+                            {
+                                button.IsEnabled = false;
+                            }
+                            else if (!blockAdd && button.Name.Contains(word + "_add"))
+                            {
+                                button.IsEnabled = true;
+                            }
+                        }
+                    }
+                }
+            }
         }
 
         private void DataGrid_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
